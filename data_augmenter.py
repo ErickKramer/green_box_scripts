@@ -2,7 +2,10 @@
 import sys
 import os
 import numpy as np
+import matplotlib.pyplot as plt
 from imageio import imread, imwrite
+import pandas as pd
+import yaml
 
 class Vec2D(object):
     def __init__(self, x=None, y=None):
@@ -16,7 +19,7 @@ class BoundingBox(object):
         self.min_coords = Vec2D()
         self.max_coords = Vec2D()
 
-def get_bb(segmentation_mask: np.array) -> BoundingBox:
+def get_bb_from_mask(segmentation_mask: np.array) -> BoundingBox:
     '''Returns a BoundingBox object with information extracted
     from the given segmentation mask.
 
@@ -27,11 +30,15 @@ def get_bb(segmentation_mask: np.array) -> BoundingBox:
 
     '''
     bb = BoundingBox()
-    bb.nonzero_rows, bb.nonzero_cols = np.where(segmentation_mask)
-    min_x, max_x = (np.min(bb.nonzero_cols), np.max(bb.nonzero_cols))
-    min_y, max_y = (np.min(bb.nonzero_rows), np.max(bb.nonzero_rows))
-    bb.min = Vec2D(min_x, min_y)
-    bb.max = Vec2D(max_x, max_y)
+    bb.nonzero_rows, bb.nonzero_cols  = np.where(segmentation_mask)
+    bb.min_coords.x, bb.max_coords.x = (np.min(bb.nonzero_cols), np.max(bb.nonzero_cols))
+    bb.min_coords.y, bb.max_coords.y = (np.min(bb.nonzero_rows), np.max(bb.nonzero_rows))
+    return bb
+
+def get_bb(coords):
+    bb = BoundingBox()
+    bb.min_coords.x, bb.max_coords.x = (np.min(coords[0]), np.max(coords[0]))
+    bb.min_coords.y, bb.max_coords.y = (np.min(coords[1]), np.max(coords[1]))
     return bb
 
 def generate_transformation(bb: BoundingBox, boundaries: tuple) -> np.array:
@@ -49,8 +56,8 @@ def generate_transformation(bb: BoundingBox, boundaries: tuple) -> np.array:
     t = None
     while not use_transformation:
         use_transformation = True
-        rectangle_points = np.array([[bb.min.x, bb.min.x, bb.max.x, bb.max.x],
-                                     [bb.min.y, bb.max.y, bb.min.y, bb.max.y]])
+        rectangle_points = np.array([[bb.min_coords.x, bb.min_coords.x, bb.max_coords.x, bb.max_coords.x],
+                                     [bb.min_coords.y, bb.max_coords.y, bb.min_coords.y, bb.max_coords.y]])
         rectangle_points = np.vstack((rectangle_points, [1., 1., 1., 1.]))
 
         # we generate a random rotation angle
@@ -59,13 +66,13 @@ def generate_transformation(bb: BoundingBox, boundaries: tuple) -> np.array:
                                       [np.sin(random_rot_angle), np.cos(random_rot_angle)]])
 
         # we generate a random translation within the image boundaries
-        random_translation_x = np.random.uniform(-bb.min.x, boundaries[1]-bb.max.x)
-        random_translation_y = np.random.uniform(-bb.min.y, boundaries[0]-bb.max.y)
+        random_translation_x = np.random.uniform(-bb.min_coords.x, boundaries[1]-bb.max_coords.x)
+        random_translation_y = np.random.uniform(-bb.min_coords.y, boundaries[0]-bb.max_coords.y)
         translation_vector = np.array([[random_translation_x], [random_translation_y]])
 
         # we generate a random scaling factor between 0.5 and 1.5
         # of the original object size
-        random_scaling_factor = np.random.uniform(-0.5, 0.5)
+        random_scaling_factor = np.random.uniform(0.5, 1.0)
         s = np.array([[random_scaling_factor, 0., 0.],
                       [0., random_scaling_factor, 0.],
                       [0., 0., 1.]])
@@ -85,7 +92,9 @@ def generate_transformation(bb: BoundingBox, boundaries: tuple) -> np.array:
 
 def augment_data(img_dir_name: str,
                  background_img_dir: str,
-                 images_per_background: int) -> None:
+                 images_per_background: int,
+                 class_id: int,
+                 coords_csvs: str) -> None:
     '''Given the images in "img_dir_name", each of which is assumed to have a
     single object, generates a new set of images in which the objects are put
     on the backgrounds in "background_img_dir" and are transformed (translated,
@@ -132,14 +141,14 @@ def augment_data(img_dir_name: str,
         print('Augmenting image {0} of {1}'.format(img_counter, total_img_counter))
 
         # we read the image and its object segmentation mask
-        img = np.array(imread(img_path), dtype=int)
+        img = np.array(imread(img_path), dtype=np.uint8)
         img_name, img_extension = img_file_name.split('.')
         segmentation_mask_name = os.path.join(img_dir_name, 'object_masks',
                                               img_name + '_mask.' + img_extension)
         segmentation_mask = np.array(imread(segmentation_mask_name), dtype=int)
 
         # we get the bounding box of the object and generate a transformation matrix
-        bb = get_bb(segmentation_mask)
+        bb = get_bb_from_mask(segmentation_mask)
 
         augmented_img_counter = 0
         for background_path in background_paths:
@@ -155,6 +164,8 @@ def augment_data(img_dir_name: str,
                 transformed_obj_coords = t.dot(obj_coords)
                 transformed_obj_coords = np.array(transformed_obj_coords, dtype=int)
 
+                transformed_bb = get_bb(transformed_obj_coords)
+
                 # the object is added to the background image
                 augmented_img = np.array(background_img, dtype=np.uint8)
                 for i, point in enumerate(transformed_obj_coords.T):
@@ -167,13 +178,42 @@ def augment_data(img_dir_name: str,
                                                   img_name + '_' + str(augmented_img_counter) + \
                                                   '_augmented.' + img_extension)
                 imwrite(augmented_img_path, augmented_img)
+                save_bounding_box(transformed_bb, coords_csvs, augmented_img_path, class_id)
                 augmented_img_counter += 1
+
+def save_bounding_box(bb, coords_csvs, img_file_name, class_id):
+    if os.path.isfile(coords_csvs):
+        df = pd.read_csv(coords_csvs, sep=',')
+        # print('1 ', df)
+        df = df.append(pd.Series([img_file_name, bb.min_coords.x, bb.max_coords.x, bb.min_coords.y, bb.max_coords.y, class_id], \
+                            index=df.columns), \
+                  ignore_index=True)
+        # print('2 ', df)
+        # print()
+    else:
+        # print([img_file_name, bb.min_coords.x, bb.max_coords.x, bb.min_coords.y, bb.max_coords.y, class_id])
+        df = pd.DataFrame([[img_file_name, bb.min_coords.x, bb.max_coords.x, bb.min_coords.y, bb.max_coords.y, class_id]],\
+            columns = ['image_name', 'xmin', 'xmax', 'ymin', 'ymax', 'class_id'])
+    df.to_csv(coords_csvs, sep=',', index=False)
+
 
 if __name__ == '__main__':
     img_dir_name = sys.argv[1]
     background_img_dir = sys.argv[2]
     images_per_background = int(sys.argv[3])
+    class_name = sys.argv[4]
+    class_id = int(sys.argv[5])
+    coords_csvs = sys.argv[6]
+
+    with open('classes.yml', 'r') as class_file:
+        classes = yaml.load(class_file)
+        if classes is None:
+            classes = dict()
+        classes[class_id] = class_name
+
+    with open('classes.yml', 'w') as class_file:
+        yaml.dump(classes, class_file,default_flow_style=False)
 
     print('Augmenting data...')
-    augment_data(img_dir_name, background_img_dir, images_per_background)
+    augment_data(img_dir_name, background_img_dir, images_per_background, class_id, coords_csvs)
     print('Data augmentation complete')

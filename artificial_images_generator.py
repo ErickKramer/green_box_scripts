@@ -93,83 +93,93 @@ def generate_transformation(bb: BoundingBox, boundaries: tuple) -> np.array:
 def augment_data(img_dir_name: str,
                  background_img_dir: str,
                  images_per_background: int,
-                 class_id: int,
-                 train_annotations_file: str,
-                 val_annotations_file: str) -> None:
+                 annotations_file: str,
+                 output_dir: str,
+                 classes_to_id: dict) -> None:
     '''Given the images in "img_dir_name", each of which is assumed to have a
     single object, generates a new set of images in which the objects are put
     on the backgrounds in "background_img_dir" and are transformed (translated,
     rotated, scaled) in random fashion. For each background and image combination,
     "images_per_background" images are generated.
 
-    Keyword arguments:
-    img_dir_name: str -- path to a directory with image files and object
+    Args:
+    * img_dir_name: str -- path to a directory with image files and object
                          segmentation masks (img_dir_name is expected to have
                          a directory "object_masks" with the segmentation masks,
                          such that if an image is called "test.jpg", its segmentation
                          mask will have the name "test_mask.jpg")
-    background_img_dir: str -- path to a directory with background images for augmentation
-    images_per_background: int -- number of images to generate per given background
-
+    * background_img_dir: str -- path to a directory with background images for augmentation
+    * images_per_background: int -- number of images to generate per given background
+    * annotations_file: str -- yaml file for the annotations of the training images
+    * output_dir:str -- directory to store the genenated images
     '''
-    # we create a directory for the augmented data
-    if not os.path.isdir('augmented_data_train'):
-        os.mkdir(os.path.join(img_dir_name, 'augmented_data'))
 
-    if not os.path.isdir('augmented_data_val'):
-        os.mkdir(os.path.join(img_dir_name, 'augmented_data_val'))
+    max_objects_per_image = 6
 
-    images = os.listdir(img_dir_name)
+    if not os.path.isdir(output_dir):
+        os.mkdir(output_dir)
+    os.chdir(output_dir)
+
+    if 'train' in annotations_file:
+        if not os.path.isdir('training_images'):
+            os.mkdir('training_images')
+    elif 'val' in annotations_file:
+        if not os.path.isdir('validation_images'):
+            os.mkdir('validation_images')
+
     backgrounds = os.listdir(background_img_dir)
+    print('Number of backgrounds images ', len(backgrounds))
+    objects = os.listdir(img_dir_name)
+    print('Number of Objects ', len(objects))
 
-    # we count the number of images
-    total_img_counter = 0
-    for img_counter, img_name in enumerate(images):
-        img_path = os.path.join(img_dir_name, img_name)
-        if os.path.isfile(img_path):
-            total_img_counter += 1
+    images = os.listdir(os.path.join(img_dir_name,objects[0]))
 
-    # we get the full paths of the background images so that
-    # we don't have to recreate them every time we iterate
-    # through the background images
+    # Generating images paths
     background_paths = []
     for background in backgrounds:
         background_path = os.path.join(background_img_dir, background)
         background_paths.append(background_path)
 
+    objects_paths = []
+    for object in objects:
+        object_path = os.path.join(img_dir_name, object)
+        objects_paths.append(object_path)
+
+    augmented_img_counter = 0
+
+    training_images = []
+    val_images = []
 
     for background_path in background_paths:
-        background_img_original = np.array(imread(background_path), dtype=int)
-
-
+        background_img_original = np.array(imread(background_path), dtype=np.uint8)
+        # print(background_path)
         for _ in range(images_per_background): # Number of images generated using that backgrounds
-            for _ in range(np.random.randint(6)): # Number of objects in the image
-                img_name = images[np.random.randint(total_img_counter)] # Choose a random image
-                img_path
+            background_img = np.array(background_img_original, dtype=np.uint8)
+            augmented_objects = []
+            for _ in range(np.random.randint(1,max_objects_per_image)): # Number of objects in the image
+                object_path = objects_paths[np.random.randint(len(objects))]
+                # print(object_path)
+                object_class = object_path.replace(img_dir_name+'/','')
+                # print(object_class)
+                images = os.listdir(object_path)
+                # print(images)
+                image_full_name = images[np.random.randint(len(images))]
+                # print('Number of images ', len(images))
+                while not '.jpg' in image_full_name:
+                    image_full_name = images[np.random.randint(len(images))]
 
-    img_counter = 0
-    for img_file_name in images:
-        img_path = os.path.join(img_dir_name, img_file_name)
-        if not os.path.isfile(img_path):
-            continue
-        img_counter += 1
-        print('Augmenting image {0} of {1}'.format(img_counter, total_img_counter))
+                image_name, img_extension = image_full_name.split('.')
+                image_path = os.path.join(object_path,image_full_name)
 
-        # we read the image and its object segmentation mask
-        img = np.array(imread(img_path), dtype=np.uint8)
-        img_name, img_extension = img_file_name.split('.')
-        segmentation_mask_name = os.path.join(img_dir_name, 'object_masks',
-                                              img_name + '_mask.' + img_extension)
-        segmentation_mask = np.array(imread(segmentation_mask_name), dtype=int)
+                img = np.array(imread(image_path), dtype=np.uint8)
+                segmentation_mask_path = os.path.join(object_path, 'object_masks',
+                                                      image_name + '_mask.'+'jpg')
+                segmentation_mask = np.array(imread(segmentation_mask_path), dtype=np.uint8)
 
-        # we get the bounding box of the object and generate a transformation matrix
-        bb = get_bb_from_mask(segmentation_mask)
+                # we get the bounding box of the object and generate a transformation matrix
+                bb = get_bb_from_mask(segmentation_mask)
 
-        augmented_img_counter = 0
-        for background_path in background_paths:
-            background_img_original = np.array(imread(background_path), dtype=int)
-            for _ in range(images_per_background):
-                background_img = np.array(background_img_original)
+
                 t = generate_transformation(bb, background_img.shape)
 
                 # the object points are transformed with the given transformation matrix
@@ -182,68 +192,58 @@ def augment_data(img_dir_name: str,
                 transformed_bb = get_bb(transformed_obj_coords)
 
                 # the object is added to the background image
-                augmented_img = np.array(background_img, dtype=np.uint8)
                 for i, point in enumerate(transformed_obj_coords.T):
                     x = point[0]
                     y = point[1]
-                    augmented_img[y, x] = img[obj_coords[1, i], obj_coords[0, i]]
+                    background_img[y, x] = img[obj_coords[1, i], obj_coords[0, i]]
 
+                id = classes_to_id[object_class]
+                augmented_object = {'class_id': id,
+                                    'xmin': int(bb.min_coords.x),
+                                    'xmax': int(bb.max_coords.x),
+                                    'ymin': int(bb.min_coords.y),
+                                    'ymax': int(bb.max_coords.y)}
 
-                if img_counter <= 15:
-                    # we finally save the augmented image
-                    augmented_img_path = os.path.join(img_dir_name, 'augmented_data',
-                                                      img_name + '_' + str(augmented_img_counter) + \
-                                                      '_augmented.' + img_extension)
-                    imwrite(augmented_img_path, augmented_img)
-                    save_bounding_box(transformed_bb, train_annotations_file, augmented_img_path, class_id)
-                else:
-                    # we finally save the augmented image
-                    augmented_img_path = os.path.join(img_dir_name, 'augmented_data_val',
-                                                      img_name + '_' + str(augmented_img_counter) + \
-                                                      '_augmented.' + img_extension)
-                    imwrite(augmented_img_path, augmented_img)
-                    save_bounding_box(transformed_bb, val_annotations_file, augmented_img_path, class_id)
+                augmented_objects.append(augmented_object)
 
+            if 'train' in annotations_file:
+                output_path = os.path.join('training_images',image_name + '_' + str(augmented_img_counter) \
+                 + '.' + img_extension)
+            elif 'val' in annotations_file:
+                output_path = os.path.join('validation_images',image_name + '_' + str(augmented_img_counter) \
+                 + '.' + img_extension)
 
-                augmented_img_counter += 1
+            # print(output_path)
+            imwrite(output_path, background_img)
+            training_images.append({'image_name': output_path,'objects': augmented_objects})
 
-def generate_annotation_file(train_annotations_file, train_images):
-    # dummy_dict.append({'image_name': 'demo2', 'objects': [{'class_id':1, 'xmin':1, 'xmax':2, 'ymin':2, 'ymax':2},{'class_id':1, 'xmin':1, 'xmax':2, 'ymin':2, 'ymax':2}]})
+            # image_name = output_path
+            augmented_img_counter += 1
+            print('Augmented {} out of {} images '.format(augmented_img_counter, images_per_background * len(backgrounds)))
 
-def save_bounding_box(bb, train_annotations_file, img_file_name, class_id):
-    if os.path.isfile(train_annotations_file):
-        df = pd.read_csv(train_annotations_file, sep=',')
-        # print('1 ', df)
-        df = df.append(pd.Series([img_file_name, bb.min_coords.x, bb.max_coords.x, bb.min_coords.y, bb.max_coords.y, class_id], \
-                            index=df.columns), \
-                  ignore_index=True)
-        # print('2 ', df)
-        # print()
-    else:
-        # print([img_file_name, bb.min_coords.x, bb.max_coords.x, bb.min_coords.y, bb.max_coords.y, class_id])
-        df = pd.DataFrame([[img_file_name, bb.min_coords.x, bb.max_coords.x, bb.min_coords.y, bb.max_coords.y, class_id]],\
-            columns = ['image_name', 'xmin', 'xmax', 'ymin', 'ymax', 'class_id'])
-    df.to_csv(train_annotations_file, sep=',', index=False)
+    generate_annotation_file(annotations_file, training_images)
+    # print(training_images)
 
+def generate_annotation_file(annotations_file, training_images):
+    # print(training_images)
+    with open(annotations_file, 'w') as annotation_file:
+        yaml.dump(training_images, annotation_file,default_flow_style=False,
+                      encoding='utf-8')
 
 if __name__ == '__main__':
     img_dir_name = sys.argv[1]
     background_img_dir = sys.argv[2]
     images_per_background = int(sys.argv[3])
-    class_name = sys.argv[4]
-    class_id = int(sys.argv[5])
-    train_annotations_file = sys.argv[6]
-    val_annotations_file = sys.argv[7]
+    annotations_file = sys.argv[4]
+    output_dir = sys.argv[5]
 
     with open('classes.yml', 'r') as class_file:
-        classes = yaml.load(class_file)
-        if classes is None:
-            classes = dict()
-        classes[class_id] = class_name
+        id_to_classes = yaml.load(class_file, Loader=yaml.FullLoader)
 
-    with open('classes.yml', 'w') as class_file:
-        yaml.dump(classes, class_file,default_flow_style=False)
+    classes_to_id = dict()
+    for key,value in id_to_classes.items():
+        classes_to_id[value] = key
 
-    print('Augmenting data...')
-    augment_data(img_dir_name, background_img_dir, images_per_background, class_id, train_annotations_file, val_annotations_file)
-    print('Data augmentation complete')
+    print('Generating artificial images...')
+    augment_data(img_dir_name, background_img_dir, images_per_background, annotations_file, output_dir, classes_to_id)
+    print('Artificial images generation complete')

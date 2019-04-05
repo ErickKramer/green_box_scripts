@@ -1,0 +1,55 @@
+item {
+  id: 1
+  name: 'blue_bowl'
+}
+
+item {
+  id: 2
+  name: 'pink_cup'
+}
+
+item {
+  id: 3
+  name: 'purple_cup'
+}
+
+item {
+  id: 4
+  name: 'e_stop'
+}
+
+item {
+  id: 5
+  name: 'mug'
+}
+
+item {
+  id: 6
+  name: 'pringles'
+}
+
+item {
+  id: 7
+  name: 'shampoo'
+}
+
+item {
+  id: 8
+  name: 'stapler'
+}
+
+item {
+  id: 9
+  name: 'toy'
+}
+
+item {
+  id: 10
+  name: 'sponge'
+}
+
+item {
+  id: 11
+  name: 'leibniz_cookies'
+}
+

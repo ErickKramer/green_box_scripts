@@ -35,7 +35,11 @@ def generate_object_masks(image_dir_name, background_image_name, background_thre
     for f in files:
         if not os.path.isfile(f):
             continue
-        img = np.array(imread(f), dtype=int)
+        try:
+            img = np.array(imread(f), dtype=int)
+        except:
+            print('Corrupted file ', f)
+            continue
         img_diff = np.clip(np.abs(img - background), 0, 255)
         img_diff = np.array(img_diff, dtype=np.uint8)
 

@@ -17,8 +17,15 @@ import tensorflow as tf
 import os
 import pandas as pd
 import yaml
+import sys
+try:
+    sys.path.remove('/opt/ros/kinetic/lib/python2.7/dist-packages')
+except:
+    pass
+import cv2
 
 # It is required to run beforehand
+# from models/research
 # export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim
 from object_detection.utils import dataset_util
 
@@ -34,56 +41,77 @@ tf.flags.DEFINE_string('val_annotations_file', '',
                        'Validation annotations CSV file.')
 tf.flags.DEFINE_string('output_dir', '/tmp/', 'Output data directory.')
 
-tf.flags.DEFINE_string('yml_filename', '', 'Classes yaml file.')
+tf.flags.DEFINE_string('classes_filename', '', 'Classes yaml file.')
 FLAGS = flags.FLAGS
 
 
-def create_tf_record_from_csv(annotations_file, image_dir, yml_filename, output_path, num_shards):
+def create_tf_record_from_yaml(annotations_file, image_dir, classes_filename, output_path, num_shards):
 
-    # Load csv file
-    df = pd.read_csv(annotations_file, sep=',')
+    writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
+
+    # Load annotations file
+    with open(annotations_file, 'r') as annotations_f:
+        annotations = yaml.load(annotations_f, Loader=yaml.FullLoader)
 
     # Load yaml file
-    with open(yml_filename, 'r') as yml_file:
+    with open(classes_filename, 'r') as yml_file:
         classes_dict = yaml.load(yml_file, Loader=yaml.FullLoader)
 
-    # Iterate over the annotations_file
-    for _, row in df.iterrows():
+    print('Number of classes ', len(classes_dict))
+    print('Number of annotations ', len(annotations))
 
-        image_name = row['image_name']
-        xmin =
-        print(row['image_name'], row['xmin'], row['xmax'], row['ymin'], row['ymax'], row['class_id'], classes_dict[row['class_id']])
+    for example in annotations:
+        filename = example['image_name']
+        file_path = os.path.join(image_dir,filename)
 
-    height = None # Image height
-    # width = None # Image width
-    # filename = None # Filename of the image. Empty if image is not from file
-    # encoded_image_data = None # Encoded image bytes
-    # image_format = None # b'jpeg' or b'png'
+        img = cv2.read_image(file_path)
+        height = img.shape[0]
+        width = img.shape[1]
+
+        with tf.gfile.GFile(file_path, 'rb') as fid:
+            encoded_image_data = fid.read()
+
+        if filename.split('.')[1] == 'jpg':
+            image_format = 'jpeg'
+
+        xmins = [] # List of normalized left x coordinates in bounding box (1 per box)
+        xmaxs = [] # List of normalized right x coordinates in bounding box
+                   # (1 per box)
+        ymins = [] # List of normalized top y coordinates in bounding box (1 per box)
+        ymaxs = [] # List of normalized bottom y coordinates in bounding box
+                   # (1 per box)
+        classes_text = [] # List of string class name of bounding box (1 per box)
+        classes = [] # List of integer class id of bounding box (1 per box)
+
+        objects = example['objects']
+
+        for object_ in objects:
+            class_id = object_['class_id']
+            classes.append(class_id)
+            classes_text.append(classes_dict[class_id])
+            xmins.append(object_['xmin']/width)
+            xmins.append(object_['xmax']/width)
+            ymins.append(object_['ymin']/height)
+            ymins.append(object_['ymax']/height)
     #
-    # xmins = [] # List of normalized left x coordinates in bounding box (1 per box)
-    # xmaxs = [] # List of normalized right x coordinates in bounding box
-    #            # (1 per box)
-    # ymins = [] # List of normalized top y coordinates in bounding box (1 per box)
-    # ymaxs = [] # List of normalized bottom y coordinates in bounding box
-    #            # (1 per box)
-    # classes_text = [] # List of string class name of bounding box (1 per box)
-    # classes = [] # List of integer class id of bounding box (1 per box)
-    #
-    # tf_example = tf.train.Example(features=tf.train.Features(feature={
-    #     'image/height': dataset_util.int64_feature(height),
-    #     'image/width': dataset_util.int64_feature(width),
-    #     'image/filename': dataset_util.bytes_feature(filename),
-    #     'image/source_id': dataset_util.bytes_feature(filename),
-    #     'image/encoded': dataset_util.bytes_feature(encoded_image_data),
-    #     'image/format': dataset_util.bytes_feature(image_format),
-    #     'image/object/bbox/xmin': dataset_util.float_list_feature(xmins),
-    #     'image/object/bbox/xmax': dataset_util.float_list_feature(xmaxs),
-    #     'image/object/bbox/ymin': dataset_util.float_list_feature(ymins),
-    #     'image/object/bbox/ymax': dataset_util.float_list_feature(ymaxs),
-    #     'image/object/class/text': dataset_util.bytes_list_feature(classes_text),
-    #     'image/object/class/label': dataset_util.int64_list_feature(classes),
-    # }))
-    # return tf_example
+        tf_example = tf.train.Example(features=tf.train.Features(feature={
+            'image/height': dataset_util.int64_feature(height),
+            'image/width': dataset_util.int64_feature(width),
+            'image/filename': dataset_util.bytes_feature(filename),
+            'image/source_id': dataset_util.bytes_feature(filename),
+            'image/encoded': dataset_util.bytes_feature(encoded_image_data),
+            'image/format': dataset_util.bytes_feature(image_format),
+            'image/object/bbox/xmin': dataset_util.float_list_feature(xmins),
+            'image/object/bbox/xmax': dataset_util.float_list_feature(xmaxs),
+            'image/object/bbox/ymin': dataset_util.float_list_feature(ymins),
+            'image/object/bbox/ymax': dataset_util.float_list_feature(ymaxs),
+            'image/object/class/text': dataset_util.bytes_list_feature(classes_text),
+            'image/object/class/label': dataset_util.int64_list_feature(classes),
+        }))
+
+        writer.write(tf_example.SerializeToString())
+
+    writer.close()
 
 
 def main(_):
@@ -91,7 +119,7 @@ def main(_):
     assert FLAGS.val_image_dir, '`val_image_dir` missing.'
     assert FLAGS.train_annotations_file, '`train_annotations_file` missing.'
     assert FLAGS.val_annotations_file, '`val_annotations_file` missing.'
-    assert FLAGS.yml_filename, '`yml_filename` missing.'
+    assert FLAGS.classes_filename, '`classes_filename` missing.'
 
     if not tf.gfile.IsDirectory(FLAGS.output_dir):
         tf.gfile.MakeDirs(FLAGS.output_dir)
@@ -99,10 +127,10 @@ def main(_):
     train_output_path = os.path.join(FLAGS.output_dir, 'robocup_train.record')
     val_output_path = os.path.join(FLAGS.output_dir, 'robocup_val.record')
 
-    create_tf_record_from_csv(
+    create_tf_record_from_yaml(
         FLAGS.train_annotations_file,
         FLAGS.train_image_dir,
-        FLAGS.yml_filename,
+        FLAGS.classes_filename,
         train_output_path,
         num_shards=1)
 

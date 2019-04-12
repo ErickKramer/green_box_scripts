@@ -1,0 +1,6690 @@
+- image_name: validation_images/bowl_blue_05_04_19_3_0.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 5
+    xmax: 687
+    xmin: 400
+    ymax: 759
+    ymin: 472
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/toy_05_04_19_7_1.jpg
+  objects:
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 10
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/shampoo_05_04_19_4_2.jpg
+  objects:
+  - class_id: 7
+    xmax: 702
+    xmin: 472
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/e_stop_05_04_19_16_3.jpg
+  objects:
+  - class_id: 11
+    xmax: 727
+    xmin: 472
+    ymax: 815
+    ymin: 384
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 807
+    ymin: 72
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+- image_name: validation_images/cookies_05_04_19_18_4.jpg
+  objects:
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/bowl_blue_05_04_19_17_5.jpg
+  objects:
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_5_6.jpg
+  objects:
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 9
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 576
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 5
+    xmax: 702
+    xmin: 464
+    ymax: 799
+    ymin: 472
+  - class_id: 8
+    xmax: 695
+    xmin: 472
+    ymax: 831
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_3_7.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 5
+    xmax: 702
+    xmin: 384
+    ymax: 807
+    ymin: 472
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/shampoo_05_04_19_13_8.jpg
+  objects:
+  - class_id: 5
+    xmax: 711
+    xmin: 472
+    ymax: 815
+    ymin: 472
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 815
+    ymin: 72
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/stapler_05_04_19_3_9.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 8
+    xmax: 695
+    xmin: 544
+    ymax: 831
+    ymin: 584
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/mug_05_04_19_7_10.jpg
+  objects:
+  - class_id: 5
+    xmax: 710
+    xmin: 472
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/sponge_top_05_04_19_11_11.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 440
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/bowl_blue_05_04_19_14_12.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_14_13.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 807
+    ymin: 608
+  - class_id: 5
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 472
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/bowl_blue_05_04_19_12_14.jpg
+  objects:
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 1
+    xmax: 735
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_17_15.jpg
+  objects:
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/stapler_05_04_19_3_16.jpg
+  objects:
+  - class_id: 3
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 512
+  - class_id: 4
+    xmax: 743
+    xmin: 448
+    ymax: 823
+    ymin: 609
+  - class_id: 4
+    xmax: 750
+    xmin: 432
+    ymax: 815
+    ymin: 608
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/toy_05_04_19_16_17.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/cookies_05_04_19_0_18.jpg
+  objects:
+  - class_id: 9
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 576
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+- image_name: validation_images/bowl_blue_05_04_19_9_19.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 393
+    ymax: 759
+    ymin: 472
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_12_20.jpg
+  objects:
+  - class_id: 1
+    xmax: 735
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_2_21.jpg
+  objects:
+  - class_id: 8
+    xmax: 735
+    xmin: 464
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/bowl_blue_05_04_19_19_22.jpg
+  objects:
+  - class_id: 5
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+- image_name: validation_images/cup_purple_05_04_19_7_23.jpg
+  objects:
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 512
+  - class_id: 9
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 3
+    xmax: 687
+    xmin: 496
+    ymax: 766
+    ymin: 512
+- image_name: validation_images/mug_05_04_19_6_24.jpg
+  objects:
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/cup_purple_05_04_19_3_25.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/cup_purple_05_04_19_2_26.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 384
+    ymax: 807
+    ymin: 472
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 9
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 584
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/sponge_top_05_04_19_10_27.jpg
+  objects:
+  - class_id: 8
+    xmax: 711
+    xmin: 440
+    ymax: 815
+    ymin: 560
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+  - class_id: 10
+    xmax: 726
+    xmin: 448
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/bowl_blue_05_04_19_11_28.jpg
+  objects:
+  - class_id: 1
+    xmax: 743
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_2_29.jpg
+  objects:
+  - class_id: 7
+    xmax: 663
+    xmin: 473
+    ymax: 815
+    ymin: 304
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 9
+    xmax: 663
+    xmin: 465
+    ymax: 823
+    ymin: 576
+  - class_id: 5
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/cookies_05_04_19_14_30.jpg
+  objects:
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/cup_pink_05_04_19_16_31.jpg
+  objects:
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 10
+    xmax: 726
+    xmin: 448
+    ymax: 815
+    ymin: 600
+  - class_id: 5
+    xmax: 711
+    xmin: 472
+    ymax: 823
+    ymin: 472
+  - class_id: 10
+    xmax: 735
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+- image_name: validation_images/e_stop_05_04_19_18_32.jpg
+  objects:
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/sponge_top_05_04_19_15_33.jpg
+  objects:
+  - class_id: 8
+    xmax: 695
+    xmin: 544
+    ymax: 831
+    ymin: 584
+  - class_id: 10
+    xmax: 727
+    xmin: 456
+    ymax: 799
+    ymin: 608
+- image_name: validation_images/toy_05_04_19_17_34.jpg
+  objects:
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+- image_name: validation_images/cup_purple_05_04_19_14_35.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 4
+    xmax: 735
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/stapler_05_04_19_12_36.jpg
+  objects:
+  - class_id: 9
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 584
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 8
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 568
+- image_name: validation_images/sponge_top_05_04_19_11_37.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 440
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/cookies_05_04_19_6_38.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 807
+    ymin: 392
+- image_name: validation_images/cup_purple_05_04_19_0_39.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+  - class_id: 11
+    xmax: 735
+    xmin: 424
+    ymax: 823
+    ymin: 384
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+- image_name: validation_images/mug_05_04_19_15_40.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 384
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/shampoo_05_04_19_16_41.jpg
+  objects:
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 7
+    xmax: 663
+    xmin: 473
+    ymax: 815
+    ymin: 304
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/toy_05_04_19_11_42.jpg
+  objects:
+  - class_id: 9
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 9
+    xmax: 727
+    xmin: 416
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_0_43.jpg
+  objects:
+  - class_id: 9
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 584
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+- image_name: validation_images/mug_05_04_19_17_44.jpg
+  objects:
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 815
+    ymin: 384
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/toy_05_04_19_9_45.jpg
+  objects:
+  - class_id: 5
+    xmax: 687
+    xmin: 400
+    ymax: 759
+    ymin: 472
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 9
+    xmax: 743
+    xmin: 416
+    ymax: 791
+    ymin: 584
+- image_name: validation_images/cup_purple_05_04_19_11_46.jpg
+  objects:
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 440
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/e_stop_05_04_19_5_47.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/bowl_blue_05_04_19_1_48.jpg
+  objects:
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/e_stop_05_04_19_5_49.jpg
+  objects:
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/bowl_blue_05_04_19_0_50.jpg
+  objects:
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/e_stop_05_04_19_10_51.jpg
+  objects:
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+  - class_id: 4
+    xmax: 735
+    xmin: 472
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/shampoo_05_04_19_12_52.jpg
+  objects:
+  - class_id: 6
+    xmax: 703
+    xmin: 480
+    ymax: 791
+    ymin: 64
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/toy_05_04_19_17_53.jpg
+  objects:
+  - class_id: 10
+    xmax: 726
+    xmin: 448
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 663
+    xmin: 465
+    ymax: 823
+    ymin: 576
+  - class_id: 11
+    xmax: 783
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+- image_name: validation_images/cup_purple_05_04_19_9_54.jpg
+  objects:
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/cup_purple_05_04_19_16_55.jpg
+  objects:
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+  - class_id: 7
+    xmax: 663
+    xmin: 473
+    ymax: 815
+    ymin: 304
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/sponge_top_05_04_19_12_56.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 464
+    ymax: 799
+    ymin: 472
+  - class_id: 9
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 576
+  - class_id: 10
+    xmax: 719
+    xmin: 442
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/pringles_05_04_19_7_57.jpg
+  objects:
+  - class_id: 6
+    xmax: 700
+    xmin: 480
+    ymax: 807
+    ymin: 72
+- image_name: validation_images/cookies_05_04_19_0_58.jpg
+  objects:
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+- image_name: validation_images/shampoo_05_04_19_16_59.jpg
+  objects:
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/cup_purple_05_04_19_5_60.jpg
+  objects:
+  - class_id: 5
+    xmax: 783
+    xmin: 465
+    ymax: 815
+    ymin: 472
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/stapler_05_04_19_2_61.jpg
+  objects:
+  - class_id: 8
+    xmax: 735
+    xmin: 464
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/cup_purple_05_04_19_6_62.jpg
+  objects:
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/mug_05_04_19_1_63.jpg
+  objects:
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 440
+  - class_id: 3
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 512
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+  - class_id: 5
+    xmax: 711
+    xmin: 472
+    ymax: 823
+    ymin: 472
+- image_name: validation_images/bowl_blue_05_04_19_2_64.jpg
+  objects:
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+  - class_id: 1
+    xmax: 735
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 6
+    xmax: 703
+    xmin: 480
+    ymax: 791
+    ymin: 64
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/pringles_05_04_19_10_65.jpg
+  objects:
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+- image_name: validation_images/bowl_blue_05_04_19_12_66.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+  - class_id: 1
+    xmax: 751
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 1
+    xmax: 735
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_13_67.jpg
+  objects:
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 7
+    xmax: 671
+    xmin: 528
+    ymax: 735
+    ymin: 304
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 1
+    xmax: 742
+    xmin: 432
+    ymax: 791
+    ymin: 584
+- image_name: validation_images/toy_05_04_19_17_68.jpg
+  objects:
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+- image_name: validation_images/bowl_blue_05_04_19_0_69.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 8
+    xmax: 719
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_18_70.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/cup_pink_05_04_19_17_71.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 807
+    ymin: 600
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 2
+    xmax: 710
+    xmin: 465
+    ymax: 815
+    ymin: 448
+- image_name: validation_images/e_stop_05_04_19_19_72.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 8
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 568
+  - class_id: 1
+    xmax: 735
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/bowl_blue_05_04_19_2_73.jpg
+  objects:
+  - class_id: 10
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/e_stop_05_04_19_11_74.jpg
+  objects:
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+- image_name: validation_images/cookies_05_04_19_10_75.jpg
+  objects:
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 5
+    xmax: 703
+    xmin: 384
+    ymax: 807
+    ymin: 472
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/bowl_blue_05_04_19_12_76.jpg
+  objects:
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 448
+  - class_id: 1
+    xmax: 735
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/sponge_top_05_04_19_16_77.jpg
+  objects:
+  - class_id: 2
+    xmax: 687
+    xmin: 472
+    ymax: 766
+    ymin: 448
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/toy_05_04_19_2_78.jpg
+  objects:
+  - class_id: 9
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_11_79.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 7
+    xmax: 695
+    xmin: 464
+    ymax: 799
+    ymin: 296
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 1
+    xmax: 743
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/cup_purple_05_04_19_3_80.jpg
+  objects:
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/cookies_05_04_19_9_81.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 11
+    xmax: 798
+    xmin: 448
+    ymax: 807
+    ymin: 392
+- image_name: validation_images/shampoo_05_04_19_3_82.jpg
+  objects:
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/stapler_05_04_19_14_83.jpg
+  objects:
+  - class_id: 2
+    xmax: 710
+    xmin: 472
+    ymax: 815
+    ymin: 448
+  - class_id: 1
+    xmax: 751
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 8
+    xmax: 766
+    xmin: 409
+    ymax: 799
+    ymin: 568
+  - class_id: 8
+    xmax: 734
+    xmin: 512
+    ymax: 823
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_9_84.jpg
+  objects:
+  - class_id: 8
+    xmax: 711
+    xmin: 456
+    ymax: 815
+    ymin: 560
+- image_name: validation_images/e_stop_05_04_19_0_85.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/shampoo_05_04_19_13_86.jpg
+  objects:
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 807
+    ymin: 600
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/cup_purple_05_04_19_12_87.jpg
+  objects:
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 814
+    ymin: 512
+- image_name: validation_images/stapler_05_04_19_11_88.jpg
+  objects:
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 304
+  - class_id: 5
+    xmax: 702
+    xmin: 384
+    ymax: 807
+    ymin: 472
+  - class_id: 8
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 568
+- image_name: validation_images/stapler_05_04_19_6_89.jpg
+  objects:
+  - class_id: 9
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/e_stop_05_04_19_16_90.jpg
+  objects:
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+- image_name: validation_images/pringles_05_04_19_14_91.jpg
+  objects:
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 807
+    ymin: 608
+  - class_id: 7
+    xmax: 687
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+- image_name: validation_images/toy_05_04_19_7_92.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 7
+    xmax: 695
+    xmin: 488
+    ymax: 751
+    ymin: 304
+  - class_id: 4
+    xmax: 750
+    xmin: 432
+    ymax: 815
+    ymin: 608
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_8_93.jpg
+  objects:
+  - class_id: 11
+    xmax: 783
+    xmin: 464
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/e_stop_05_04_19_9_94.jpg
+  objects:
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 601
+- image_name: validation_images/bowl_blue_05_04_19_6_95.jpg
+  objects:
+  - class_id: 5
+    xmax: 783
+    xmin: 465
+    ymax: 815
+    ymin: 472
+  - class_id: 7
+    xmax: 702
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_16_96.jpg
+  objects:
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 807
+    ymin: 384
+- image_name: validation_images/bowl_blue_05_04_19_9_97.jpg
+  objects:
+  - class_id: 9
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 576
+  - class_id: 10
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_6_98.jpg
+  objects:
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/bowl_blue_05_04_19_8_99.jpg
+  objects:
+  - class_id: 1
+    xmax: 751
+    xmin: 440
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/e_stop_05_04_19_15_100.jpg
+  objects:
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+  - class_id: 4
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/stapler_05_04_19_0_101.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 424
+    ymax: 815
+    ymin: 568
+- image_name: validation_images/mug_05_04_19_10_102.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 464
+    ymax: 799
+    ymin: 472
+- image_name: validation_images/cup_pink_05_04_19_6_103.jpg
+  objects:
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 805
+    ymin: 64
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+  - class_id: 2
+    xmax: 687
+    xmin: 472
+    ymax: 766
+    ymin: 448
+- image_name: validation_images/cup_pink_05_04_19_2_104.jpg
+  objects:
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+  - class_id: 7
+    xmax: 695
+    xmin: 464
+    ymax: 799
+    ymin: 296
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/pringles_05_04_19_13_105.jpg
+  objects:
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 807
+    ymin: 72
+- image_name: validation_images/cup_purple_05_04_19_1_106.jpg
+  objects:
+  - class_id: 5
+    xmax: 710
+    xmin: 472
+    ymax: 815
+    ymin: 472
+  - class_id: 6
+    xmax: 703
+    xmin: 496
+    ymax: 751
+    ymin: 64
+  - class_id: 3
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 512
+- image_name: validation_images/sponge_top_05_04_19_15_107.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 472
+    ymax: 815
+    ymin: 584
+  - class_id: 10
+    xmax: 727
+    xmin: 456
+    ymax: 799
+    ymin: 608
+- image_name: validation_images/cup_purple_05_04_19_7_108.jpg
+  objects:
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 3
+    xmax: 687
+    xmin: 496
+    ymax: 766
+    ymin: 512
+- image_name: validation_images/shampoo_05_04_19_14_109.jpg
+  objects:
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+  - class_id: 5
+    xmax: 767
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/cookies_05_04_19_3_110.jpg
+  objects:
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 11
+    xmax: 775
+    xmin: 464
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/cookies_05_04_19_13_111.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 799
+    ymin: 512
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/toy_05_04_19_11_112.jpg
+  objects:
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+  - class_id: 5
+    xmax: 703
+    xmin: 384
+    ymax: 807
+    ymin: 472
+  - class_id: 9
+    xmax: 727
+    xmin: 416
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_18_113.jpg
+  objects:
+  - class_id: 1
+    xmax: 758
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/e_stop_05_04_19_10_114.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 568
+  - class_id: 4
+    xmax: 743
+    xmin: 448
+    ymax: 823
+    ymin: 609
+  - class_id: 4
+    xmax: 735
+    xmin: 472
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/shampoo_05_04_19_14_115.jpg
+  objects:
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+  - class_id: 10
+    xmax: 726
+    xmin: 448
+    ymax: 815
+    ymin: 600
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/cookies_05_04_19_17_116.jpg
+  objects:
+  - class_id: 4
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 608
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 608
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/toy_05_04_19_16_117.jpg
+  objects:
+  - class_id: 10
+    xmax: 742
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/bowl_blue_05_04_19_9_118.jpg
+  objects:
+  - class_id: 8
+    xmax: 711
+    xmin: 456
+    ymax: 815
+    ymin: 560
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_7_119.jpg
+  objects:
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 814
+    ymin: 512
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 1
+    xmax: 743
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_4_120.jpg
+  objects:
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+  - class_id: 8
+    xmax: 711
+    xmin: 440
+    ymax: 815
+    ymin: 560
+- image_name: validation_images/cup_pink_05_04_19_19_121.jpg
+  objects:
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+- image_name: validation_images/e_stop_05_04_19_12_122.jpg
+  objects:
+  - class_id: 4
+    xmax: 743
+    xmin: 448
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/e_stop_05_04_19_7_123.jpg
+  objects:
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/pringles_05_04_19_13_124.jpg
+  objects:
+  - class_id: 10
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 9
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 9
+    xmax: 727
+    xmin: 416
+    ymax: 807
+    ymin: 584
+  - class_id: 11
+    xmax: 775
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 807
+    ymin: 72
+- image_name: validation_images/cup_pink_05_04_19_14_125.jpg
+  objects:
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 9
+    xmax: 719
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/mug_05_04_19_9_126.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 432
+    ymax: 759
+    ymin: 472
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 5
+    xmax: 687
+    xmin: 400
+    ymax: 759
+    ymin: 472
+- image_name: validation_images/stapler_05_04_19_10_127.jpg
+  objects:
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+  - class_id: 9
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 576
+  - class_id: 8
+    xmax: 759
+    xmin: 472
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/sponge_05_04_19_6_128.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 456
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/toy_05_04_19_6_129.jpg
+  objects:
+  - class_id: 10
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/pringles_05_04_19_0_130.jpg
+  objects:
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+- image_name: validation_images/e_stop_05_04_19_5_131.jpg
+  objects:
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 799
+    ymin: 512
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/pringles_05_04_19_18_132.jpg
+  objects:
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/bowl_blue_05_04_19_9_133.jpg
+  objects:
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 8
+    xmax: 735
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/cup_pink_05_04_19_5_134.jpg
+  objects:
+  - class_id: 9
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 576
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+- image_name: validation_images/mug_05_04_19_0_135.jpg
+  objects:
+  - class_id: 4
+    xmax: 735
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 5
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/shampoo_05_04_19_15_136.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 7
+    xmax: 695
+    xmin: 464
+    ymax: 799
+    ymin: 296
+- image_name: validation_images/cookies_05_04_19_6_137.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 11
+    xmax: 735
+    xmin: 424
+    ymax: 823
+    ymin: 384
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+  - class_id: 1
+    xmax: 743
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 807
+    ymin: 392
+- image_name: validation_images/cup_pink_05_04_19_8_138.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 807
+    ymin: 72
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 2
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 440
+- image_name: validation_images/cookies_05_04_19_4_139.jpg
+  objects:
+  - class_id: 6
+    xmax: 710
+    xmin: 465
+    ymax: 807
+    ymin: 64
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 3
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 512
+  - class_id: 9
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+- image_name: validation_images/cup_pink_05_04_19_0_140.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 791
+    ymin: 448
+- image_name: validation_images/bowl_blue_05_04_19_17_141.jpg
+  objects:
+  - class_id: 7
+    xmax: 671
+    xmin: 528
+    ymax: 735
+    ymin: 304
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/e_stop_05_04_19_12_142.jpg
+  objects:
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 4
+    xmax: 743
+    xmin: 448
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/shampoo_05_04_19_2_143.jpg
+  objects:
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/bowl_blue_05_04_19_2_144.jpg
+  objects:
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_10_145.jpg
+  objects:
+  - class_id: 9
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 576
+  - class_id: 7
+    xmax: 671
+    xmin: 528
+    ymax: 735
+    ymin: 304
+  - class_id: 5
+    xmax: 695
+    xmin: 432
+    ymax: 759
+    ymin: 472
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 608
+  - class_id: 8
+    xmax: 759
+    xmin: 472
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_17_146.jpg
+  objects:
+  - class_id: 3
+    xmax: 687
+    xmin: 473
+    ymax: 759
+    ymin: 512
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/cup_pink_05_04_19_3_147.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 448
+- image_name: validation_images/mug_05_04_19_0_148.jpg
+  objects:
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 5
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/e_stop_05_04_19_9_149.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 601
+- image_name: validation_images/stapler_05_04_19_10_150.jpg
+  objects:
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 4
+    xmax: 735
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 8
+    xmax: 759
+    xmin: 472
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/pringles_05_04_19_16_151.jpg
+  objects:
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 304
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 6
+    xmax: 703
+    xmin: 480
+    ymax: 791
+    ymin: 64
+- image_name: validation_images/cup_pink_05_04_19_1_152.jpg
+  objects:
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 512
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/cookies_05_04_19_15_153.jpg
+  objects:
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 11
+    xmax: 727
+    xmin: 472
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/e_stop_05_04_19_4_154.jpg
+  objects:
+  - class_id: 4
+    xmax: 751
+    xmin: 448
+    ymax: 823
+    ymin: 609
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+- image_name: validation_images/cookies_05_04_19_11_155.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 11
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/pringles_05_04_19_14_156.jpg
+  objects:
+  - class_id: 6
+    xmax: 703
+    xmin: 496
+    ymax: 751
+    ymin: 64
+  - class_id: 10
+    xmax: 719
+    xmin: 442
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 703
+    xmin: 496
+    ymax: 751
+    ymin: 64
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+- image_name: validation_images/pringles_05_04_19_12_157.jpg
+  objects:
+  - class_id: 6
+    xmax: 700
+    xmin: 480
+    ymax: 807
+    ymin: 72
+  - class_id: 6
+    xmax: 710
+    xmin: 465
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/sponge_top_05_04_19_13_158.jpg
+  objects:
+  - class_id: 9
+    xmax: 719
+    xmin: 448
+    ymax: 815
+    ymin: 576
+  - class_id: 7
+    xmax: 671
+    xmin: 528
+    ymax: 735
+    ymin: 304
+  - class_id: 10
+    xmax: 742
+    xmin: 456
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/mug_05_04_19_13_159.jpg
+  objects:
+  - class_id: 5
+    xmax: 687
+    xmin: 400
+    ymax: 759
+    ymin: 472
+  - class_id: 11
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 384
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+  - class_id: 5
+    xmax: 767
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/cookies_05_04_19_11_160.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 4
+    xmax: 750
+    xmin: 432
+    ymax: 815
+    ymin: 608
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 807
+    ymin: 384
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 11
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/bowl_blue_05_04_19_4_161.jpg
+  objects:
+  - class_id: 8
+    xmax: 734
+    xmin: 512
+    ymax: 823
+    ymin: 584
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+  - class_id: 11
+    xmax: 751
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_2_162.jpg
+  objects:
+  - class_id: 3
+    xmax: 687
+    xmin: 473
+    ymax: 759
+    ymin: 512
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 807
+    ymin: 512
+  - class_id: 5
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/mug_05_04_19_4_163.jpg
+  objects:
+  - class_id: 5
+    xmax: 791
+    xmin: 464
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/cup_pink_05_04_19_4_164.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 799
+    ymin: 448
+- image_name: validation_images/bowl_blue_05_04_19_6_165.jpg
+  objects:
+  - class_id: 8
+    xmax: 711
+    xmin: 440
+    ymax: 815
+    ymin: 560
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_15_166.jpg
+  objects:
+  - class_id: 11
+    xmax: 727
+    xmin: 472
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/toy_05_04_19_13_167.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 7
+    xmax: 702
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 10
+    xmax: 727
+    xmin: 456
+    ymax: 799
+    ymin: 608
+  - class_id: 5
+    xmax: 783
+    xmin: 465
+    ymax: 815
+    ymin: 472
+  - class_id: 9
+    xmax: 719
+    xmin: 424
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/cup_pink_05_04_19_0_168.jpg
+  objects:
+  - class_id: 11
+    xmax: 743
+    xmin: 384
+    ymax: 815
+    ymin: 392
+  - class_id: 2
+    xmax: 710
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 791
+    ymin: 448
+- image_name: validation_images/toy_05_04_19_7_169.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_9_170.jpg
+  objects:
+  - class_id: 8
+    xmax: 711
+    xmin: 456
+    ymax: 815
+    ymin: 560
+- image_name: validation_images/cup_purple_05_04_19_1_171.jpg
+  objects:
+  - class_id: 1
+    xmax: 742
+    xmin: 432
+    ymax: 791
+    ymin: 584
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 3
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 512
+- image_name: validation_images/cup_pink_05_04_19_10_172.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 7
+    xmax: 671
+    xmin: 496
+    ymax: 783
+    ymin: 296
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 440
+- image_name: validation_images/shampoo_05_04_19_14_173.jpg
+  objects:
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/e_stop_05_04_19_2_174.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 464
+    ymax: 799
+    ymin: 472
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 4
+    xmax: 751
+    xmin: 448
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/shampoo_05_04_19_2_175.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/e_stop_05_04_19_13_176.jpg
+  objects:
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/e_stop_05_04_19_18_177.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 5
+    xmax: 791
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 8
+    xmax: 742
+    xmin: 432
+    ymax: 807
+    ymin: 576
+  - class_id: 10
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/shampoo_05_04_19_1_178.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 9
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 7
+    xmax: 663
+    xmin: 473
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/toy_05_04_19_12_179.jpg
+  objects:
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 9
+    xmax: 719
+    xmin: 448
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/sponge_top_05_04_19_17_180.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 440
+    ymax: 807
+    ymin: 600
+  - class_id: 9
+    xmax: 719
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 807
+    ymin: 600
+- image_name: validation_images/e_stop_05_04_19_7_181.jpg
+  objects:
+  - class_id: 7
+    xmax: 687
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/stapler_05_04_19_3_182.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/cup_purple_05_04_19_14_183.jpg
+  objects:
+  - class_id: 5
+    xmax: 767
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/bowl_blue_05_04_19_14_184.jpg
+  objects:
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 512
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/sponge_05_04_19_2_185.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/sponge_05_04_19_3_186.jpg
+  objects:
+  - class_id: 6
+    xmax: 703
+    xmin: 496
+    ymax: 751
+    ymin: 64
+  - class_id: 1
+    xmax: 758
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 10
+    xmax: 735
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 10
+    xmax: 735
+    xmin: 472
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/sponge_top_05_04_19_10_187.jpg
+  objects:
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+  - class_id: 10
+    xmax: 726
+    xmin: 448
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/pringles_05_04_19_13_188.jpg
+  objects:
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 807
+    ymin: 72
+- image_name: validation_images/bowl_blue_05_04_19_8_189.jpg
+  objects:
+  - class_id: 9
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 576
+  - class_id: 9
+    xmax: 663
+    xmin: 465
+    ymax: 823
+    ymin: 576
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 512
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+  - class_id: 1
+    xmax: 751
+    xmin: 440
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_14_190.jpg
+  objects:
+  - class_id: 11
+    xmax: 758
+    xmin: 432
+    ymax: 823
+    ymin: 384
+  - class_id: 5
+    xmax: 791
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 815
+    ymin: 72
+  - class_id: 8
+    xmax: 734
+    xmin: 512
+    ymax: 823
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_2_191.jpg
+  objects:
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 11
+    xmax: 751
+    xmin: 432
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/pringles_05_04_19_14_192.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 807
+    ymin: 384
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+- image_name: validation_images/e_stop_05_04_19_15_193.jpg
+  objects:
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 4
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/shampoo_05_04_19_7_194.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 4
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 609
+  - class_id: 7
+    xmax: 663
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 7
+    xmax: 663
+    xmin: 472
+    ymax: 799
+    ymin: 296
+- image_name: validation_images/cup_pink_05_04_19_6_195.jpg
+  objects:
+  - class_id: 9
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 9
+    xmax: 719
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 2
+    xmax: 687
+    xmin: 472
+    ymax: 766
+    ymin: 448
+- image_name: validation_images/shampoo_05_04_19_16_196.jpg
+  objects:
+  - class_id: 9
+    xmax: 719
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/sponge_05_04_19_4_197.jpg
+  objects:
+  - class_id: 10
+    xmax: 695
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 5
+    xmax: 783
+    xmin: 465
+    ymax: 815
+    ymin: 472
+  - class_id: 9
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 584
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/mug_05_04_19_14_198.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/stapler_05_04_19_17_199.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/e_stop_05_04_19_10_200.jpg
+  objects:
+  - class_id: 4
+    xmax: 735
+    xmin: 472
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/cup_purple_05_04_19_7_201.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 393
+    ymax: 759
+    ymin: 472
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 8
+    xmax: 735
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 8
+    xmax: 719
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 3
+    xmax: 687
+    xmin: 496
+    ymax: 766
+    ymin: 512
+- image_name: validation_images/bowl_blue_05_04_19_1_202.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_9_203.jpg
+  objects:
+  - class_id: 11
+    xmax: 758
+    xmin: 432
+    ymax: 823
+    ymin: 384
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 440
+  - class_id: 6
+    xmax: 710
+    xmin: 465
+    ymax: 807
+    ymin: 64
+  - class_id: 11
+    xmax: 798
+    xmin: 448
+    ymax: 807
+    ymin: 392
+- image_name: validation_images/pringles_05_04_19_4_204.jpg
+  objects:
+  - class_id: 3
+    xmax: 687
+    xmin: 473
+    ymax: 759
+    ymin: 512
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/pringles_05_04_19_6_205.jpg
+  objects:
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 799
+    ymin: 512
+  - class_id: 5
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 472
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 805
+    ymin: 64
+- image_name: validation_images/stapler_05_04_19_17_206.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/e_stop_05_04_19_18_207.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 608
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/mug_05_04_19_8_208.jpg
+  objects:
+  - class_id: 5
+    xmax: 703
+    xmin: 384
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/cookies_05_04_19_13_209.jpg
+  objects:
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/e_stop_05_04_19_12_210.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+  - class_id: 4
+    xmax: 743
+    xmin: 448
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/toy_05_04_19_16_211.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/toy_05_04_19_5_212.jpg
+  objects:
+  - class_id: 9
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_8_213.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/mug_05_04_19_2_214.jpg
+  objects:
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 5
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/stapler_05_04_19_15_215.jpg
+  objects:
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 601
+  - class_id: 8
+    xmax: 734
+    xmin: 512
+    ymax: 823
+    ymin: 584
+  - class_id: 4
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 608
+  - class_id: 8
+    xmax: 766
+    xmin: 409
+    ymax: 799
+    ymin: 568
+- image_name: validation_images/toy_05_04_19_3_216.jpg
+  objects:
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 807
+    ymin: 384
+  - class_id: 9
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_2_217.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 799
+    ymin: 448
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 8
+    xmax: 735
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 11
+    xmax: 751
+    xmin: 432
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/bowl_blue_05_04_19_9_218.jpg
+  objects:
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+  - class_id: 9
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 576
+  - class_id: 1
+    xmax: 751
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/cup_purple_05_04_19_3_219.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 9
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 584
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/pringles_05_04_19_15_220.jpg
+  objects:
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+  - class_id: 6
+    xmax: 701
+    xmin: 472
+    ymax: 799
+    ymin: 72
+- image_name: validation_images/toy_05_04_19_9_221.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 9
+    xmax: 743
+    xmin: 416
+    ymax: 791
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_18_222.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 2
+    xmax: 703
+    xmin: 465
+    ymax: 751
+    ymin: 448
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/mug_05_04_19_10_223.jpg
+  objects:
+  - class_id: 8
+    xmax: 766
+    xmin: 409
+    ymax: 799
+    ymin: 568
+  - class_id: 7
+    xmax: 671
+    xmin: 496
+    ymax: 783
+    ymin: 296
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+  - class_id: 5
+    xmax: 702
+    xmin: 464
+    ymax: 799
+    ymin: 472
+- image_name: validation_images/toy_05_04_19_12_224.jpg
+  objects:
+  - class_id: 11
+    xmax: 798
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 9
+    xmax: 719
+    xmin: 448
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/pringles_05_04_19_19_225.jpg
+  objects:
+  - class_id: 5
+    xmax: 711
+    xmin: 472
+    ymax: 823
+    ymin: 472
+  - class_id: 11
+    xmax: 758
+    xmin: 432
+    ymax: 823
+    ymin: 384
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 64
+- image_name: validation_images/bowl_blue_05_04_19_3_226.jpg
+  objects:
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 807
+    ymin: 608
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/e_stop_05_04_19_17_227.jpg
+  objects:
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 448
+  - class_id: 4
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/cookies_05_04_19_5_228.jpg
+  objects:
+  - class_id: 10
+    xmax: 727
+    xmin: 456
+    ymax: 799
+    ymin: 608
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 7
+    xmax: 671
+    xmin: 496
+    ymax: 783
+    ymin: 296
+  - class_id: 11
+    xmax: 743
+    xmin: 384
+    ymax: 815
+    ymin: 392
+- image_name: validation_images/cup_purple_05_04_19_4_229.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/bowl_blue_05_04_19_5_230.jpg
+  objects:
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 814
+    ymin: 512
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+- image_name: validation_images/cup_pink_05_04_19_16_231.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+- image_name: validation_images/e_stop_05_04_19_2_232.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 440
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+  - class_id: 4
+    xmax: 751
+    xmin: 448
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/bowl_blue_05_04_19_11_233.jpg
+  objects:
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 512
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 1
+    xmax: 743
+    xmin: 448
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/pringles_05_04_19_13_234.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 5
+    xmax: 687
+    xmin: 440
+    ymax: 759
+    ymin: 472
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 807
+    ymin: 72
+- image_name: validation_images/cookies_05_04_19_12_235.jpg
+  objects:
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 9
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 576
+  - class_id: 11
+    xmax: 758
+    xmin: 432
+    ymax: 823
+    ymin: 384
+- image_name: validation_images/sponge_top_05_04_19_10_236.jpg
+  objects:
+  - class_id: 10
+    xmax: 726
+    xmin: 448
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/stapler_05_04_19_5_237.jpg
+  objects:
+  - class_id: 8
+    xmax: 695
+    xmin: 472
+    ymax: 831
+    ymin: 584
+- image_name: validation_images/toy_05_04_19_7_238.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_4_239.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 815
+    ymin: 384
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+  - class_id: 2
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 440
+  - class_id: 5
+    xmax: 791
+    xmin: 464
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/mug_05_04_19_9_240.jpg
+  objects:
+  - class_id: 8
+    xmax: 695
+    xmin: 472
+    ymax: 831
+    ymin: 584
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 5
+    xmax: 687
+    xmin: 400
+    ymax: 759
+    ymin: 472
+- image_name: validation_images/toy_05_04_19_2_241.jpg
+  objects:
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 799
+    ymin: 512
+  - class_id: 9
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/shampoo_05_04_19_1_242.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 7
+    xmax: 663
+    xmin: 473
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/cup_purple_05_04_19_5_243.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/toy_05_04_19_8_244.jpg
+  objects:
+  - class_id: 1
+    xmax: 743
+    xmin: 448
+    ymax: 807
+    ymin: 584
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 9
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_17_245.jpg
+  objects:
+  - class_id: 4
+    xmax: 750
+    xmin: 440
+    ymax: 807
+    ymin: 608
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/cup_pink_05_04_19_0_246.jpg
+  objects:
+  - class_id: 7
+    xmax: 671
+    xmin: 496
+    ymax: 783
+    ymin: 296
+  - class_id: 5
+    xmax: 767
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 791
+    ymin: 448
+- image_name: validation_images/cup_pink_05_04_19_7_247.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 448
+- image_name: validation_images/cup_pink_05_04_19_2_248.jpg
+  objects:
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/cookies_05_04_19_16_249.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 807
+    ymin: 384
+- image_name: validation_images/shampoo_05_04_19_7_250.jpg
+  objects:
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 10
+    xmax: 742
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 7
+    xmax: 663
+    xmin: 472
+    ymax: 799
+    ymin: 296
+- image_name: validation_images/toy_05_04_19_2_251.jpg
+  objects:
+  - class_id: 4
+    xmax: 750
+    xmin: 440
+    ymax: 807
+    ymin: 608
+  - class_id: 11
+    xmax: 775
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 9
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_4_252.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_1_253.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/toy_05_04_19_8_254.jpg
+  objects:
+  - class_id: 1
+    xmax: 751
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 2
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 448
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 9
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/shampoo_05_04_19_10_255.jpg
+  objects:
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 7
+    xmax: 671
+    xmin: 496
+    ymax: 783
+    ymin: 296
+- image_name: validation_images/toy_05_04_19_17_256.jpg
+  objects:
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+- image_name: validation_images/cup_pink_05_04_19_12_257.jpg
+  objects:
+  - class_id: 2
+    xmax: 710
+    xmin: 472
+    ymax: 815
+    ymin: 448
+- image_name: validation_images/cup_purple_05_04_19_9_258.jpg
+  objects:
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/bowl_blue_05_04_19_17_259.jpg
+  objects:
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 8
+    xmax: 695
+    xmin: 472
+    ymax: 831
+    ymin: 584
+  - class_id: 8
+    xmax: 734
+    xmin: 512
+    ymax: 823
+    ymin: 584
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_13_260.jpg
+  objects:
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 6
+    xmax: 700
+    xmin: 480
+    ymax: 807
+    ymin: 72
+  - class_id: 8
+    xmax: 759
+    xmin: 472
+    ymax: 815
+    ymin: 584
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/stapler_05_04_19_7_261.jpg
+  objects:
+  - class_id: 8
+    xmax: 742
+    xmin: 432
+    ymax: 807
+    ymin: 576
+- image_name: validation_images/cookies_05_04_19_1_262.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+- image_name: validation_images/sponge_05_04_19_4_263.jpg
+  objects:
+  - class_id: 7
+    xmax: 695
+    xmin: 488
+    ymax: 751
+    ymin: 304
+  - class_id: 8
+    xmax: 711
+    xmin: 440
+    ymax: 815
+    ymin: 560
+  - class_id: 8
+    xmax: 711
+    xmin: 440
+    ymax: 815
+    ymin: 560
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/cup_purple_05_04_19_3_264.jpg
+  objects:
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 6
+    xmax: 710
+    xmin: 465
+    ymax: 807
+    ymin: 64
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/e_stop_05_04_19_1_265.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 4
+    xmax: 750
+    xmin: 432
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/e_stop_05_04_19_4_266.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+- image_name: validation_images/sponge_top_05_04_19_1_267.jpg
+  objects:
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+- image_name: validation_images/stapler_05_04_19_12_268.jpg
+  objects:
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 807
+    ymin: 512
+  - class_id: 8
+    xmax: 735
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 8
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 568
+- image_name: validation_images/pringles_05_04_19_5_269.jpg
+  objects:
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+  - class_id: 4
+    xmax: 750
+    xmin: 432
+    ymax: 815
+    ymin: 608
+  - class_id: 10
+    xmax: 742
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 751
+    ymin: 64
+- image_name: validation_images/e_stop_05_04_19_12_270.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 4
+    xmax: 743
+    xmin: 448
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/stapler_05_04_19_0_271.jpg
+  objects:
+  - class_id: 11
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 384
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 8
+    xmax: 719
+    xmin: 424
+    ymax: 815
+    ymin: 568
+- image_name: validation_images/sponge_top_05_04_19_18_272.jpg
+  objects:
+  - class_id: 5
+    xmax: 687
+    xmin: 440
+    ymax: 759
+    ymin: 472
+  - class_id: 10
+    xmax: 719
+    xmin: 440
+    ymax: 807
+    ymin: 600
+- image_name: validation_images/cup_purple_05_04_19_5_273.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/stapler_05_04_19_1_274.jpg
+  objects:
+  - class_id: 11
+    xmax: 798
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+- image_name: validation_images/sponge_top_05_04_19_18_275.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 432
+    ymax: 759
+    ymin: 472
+  - class_id: 11
+    xmax: 798
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 10
+    xmax: 719
+    xmin: 440
+    ymax: 807
+    ymin: 600
+- image_name: validation_images/sponge_05_04_19_7_276.jpg
+  objects:
+  - class_id: 10
+    xmax: 695
+    xmin: 440
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/e_stop_05_04_19_17_277.jpg
+  objects:
+  - class_id: 8
+    xmax: 711
+    xmin: 456
+    ymax: 815
+    ymin: 560
+  - class_id: 4
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 609
+- image_name: validation_images/sponge_05_04_19_0_278.jpg
+  objects:
+  - class_id: 10
+    xmax: 743
+    xmin: 456
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/cup_purple_05_04_19_18_279.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 601
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 3
+    xmax: 703
+    xmin: 473
+    ymax: 815
+    ymin: 512
+- image_name: validation_images/cookies_05_04_19_15_280.jpg
+  objects:
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 608
+  - class_id: 5
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+  - class_id: 11
+    xmax: 727
+    xmin: 472
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/toy_05_04_19_0_281.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/pringles_05_04_19_18_282.jpg
+  objects:
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/cookies_05_04_19_2_283.jpg
+  objects:
+  - class_id: 4
+    xmax: 751
+    xmin: 448
+    ymax: 823
+    ymin: 609
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+  - class_id: 11
+    xmax: 751
+    xmin: 432
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/stapler_05_04_19_8_284.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 5
+    xmax: 791
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 8
+    xmax: 719
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/cup_purple_05_04_19_1_285.jpg
+  objects:
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 791
+    ymin: 448
+  - class_id: 8
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 568
+  - class_id: 3
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 512
+- image_name: validation_images/shampoo_05_04_19_2_286.jpg
+  objects:
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/pringles_05_04_19_2_287.jpg
+  objects:
+  - class_id: 4
+    xmax: 750
+    xmin: 440
+    ymax: 807
+    ymin: 608
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/cup_purple_05_04_19_10_288.jpg
+  objects:
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+- image_name: validation_images/cup_pink_05_04_19_13_289.jpg
+  objects:
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+- image_name: validation_images/mug_05_04_19_16_290.jpg
+  objects:
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+  - class_id: 5
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/pringles_05_04_19_3_291.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 815
+    ymin: 72
+- image_name: validation_images/mug_05_04_19_0_292.jpg
+  objects:
+  - class_id: 5
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/shampoo_05_04_19_15_293.jpg
+  objects:
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 7
+    xmax: 695
+    xmin: 464
+    ymax: 799
+    ymin: 296
+- image_name: validation_images/cup_pink_05_04_19_19_294.jpg
+  objects:
+  - class_id: 2
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 440
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 7
+    xmax: 663
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+- image_name: validation_images/pringles_05_04_19_15_295.jpg
+  objects:
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 512
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+  - class_id: 6
+    xmax: 701
+    xmin: 472
+    ymax: 799
+    ymin: 72
+- image_name: validation_images/toy_05_04_19_16_296.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/cup_purple_05_04_19_7_297.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 568
+  - class_id: 11
+    xmax: 758
+    xmin: 432
+    ymax: 823
+    ymin: 384
+  - class_id: 3
+    xmax: 687
+    xmin: 496
+    ymax: 766
+    ymin: 512
+- image_name: validation_images/stapler_05_04_19_13_298.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 8
+    xmax: 695
+    xmin: 544
+    ymax: 831
+    ymin: 584
+- image_name: validation_images/sponge_top_05_04_19_13_299.jpg
+  objects:
+  - class_id: 1
+    xmax: 751
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 7
+    xmax: 695
+    xmin: 488
+    ymax: 751
+    ymin: 304
+  - class_id: 7
+    xmax: 695
+    xmin: 464
+    ymax: 799
+    ymin: 296
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 10
+    xmax: 742
+    xmin: 456
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/sponge_05_04_19_2_300.jpg
+  objects:
+  - class_id: 9
+    xmax: 727
+    xmin: 416
+    ymax: 807
+    ymin: 584
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/cup_pink_05_04_19_19_301.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 5
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 472
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+- image_name: validation_images/shampoo_05_04_19_0_302.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 815
+    ymin: 72
+  - class_id: 5
+    xmax: 791
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/shampoo_05_04_19_2_303.jpg
+  objects:
+  - class_id: 1
+    xmax: 735
+    xmin: 432
+    ymax: 783
+    ymin: 584
+  - class_id: 7
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/cookies_05_04_19_7_304.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 9
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 584
+  - class_id: 11
+    xmax: 735
+    xmin: 424
+    ymax: 823
+    ymin: 384
+- image_name: validation_images/cup_pink_05_04_19_14_305.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/mug_05_04_19_10_306.jpg
+  objects:
+  - class_id: 6
+    xmax: 700
+    xmin: 480
+    ymax: 807
+    ymin: 72
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 1
+    xmax: 750
+    xmin: 432
+    ymax: 807
+    ymin: 584
+  - class_id: 5
+    xmax: 702
+    xmin: 464
+    ymax: 799
+    ymin: 472
+- image_name: validation_images/sponge_05_04_19_3_307.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 701
+    xmin: 472
+    ymax: 799
+    ymin: 72
+  - class_id: 10
+    xmax: 735
+    xmin: 472
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/sponge_top_05_04_19_18_308.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 440
+    ymax: 807
+    ymin: 600
+- image_name: validation_images/sponge_top_05_04_19_10_309.jpg
+  objects:
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 8
+    xmax: 695
+    xmin: 472
+    ymax: 831
+    ymin: 584
+  - class_id: 10
+    xmax: 726
+    xmin: 448
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/shampoo_05_04_19_4_310.jpg
+  objects:
+  - class_id: 7
+    xmax: 687
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 7
+    xmax: 663
+    xmin: 473
+    ymax: 815
+    ymin: 304
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 815
+    ymin: 72
+  - class_id: 7
+    xmax: 702
+    xmin: 472
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/cup_purple_05_04_19_0_311.jpg
+  objects:
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 751
+    ymin: 512
+- image_name: validation_images/toy_05_04_19_13_312.jpg
+  objects:
+  - class_id: 6
+    xmax: 703
+    xmin: 480
+    ymax: 791
+    ymin: 64
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 608
+  - class_id: 10
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 9
+    xmax: 719
+    xmin: 424
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_16_313.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 5
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/shampoo_05_04_19_0_314.jpg
+  objects:
+  - class_id: 7
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 304
+  - class_id: 5
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 9
+    xmax: 727
+    xmin: 416
+    ymax: 807
+    ymin: 584
+  - class_id: 10
+    xmax: 742
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/mug_05_04_19_11_315.jpg
+  objects:
+  - class_id: 2
+    xmax: 710
+    xmin: 472
+    ymax: 815
+    ymin: 448
+  - class_id: 7
+    xmax: 687
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 5
+    xmax: 687
+    xmin: 440
+    ymax: 759
+    ymin: 472
+  - class_id: 5
+    xmax: 695
+    xmin: 432
+    ymax: 759
+    ymin: 472
+- image_name: validation_images/cup_pink_05_04_19_2_316.jpg
+  objects:
+  - class_id: 5
+    xmax: 695
+    xmin: 432
+    ymax: 759
+    ymin: 472
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/stapler_05_04_19_16_317.jpg
+  objects:
+  - class_id: 1
+    xmax: 743
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 807
+    ymin: 72
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 805
+    ymin: 64
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+- image_name: validation_images/cookies_05_04_19_11_318.jpg
+  objects:
+  - class_id: 3
+    xmax: 687
+    xmin: 473
+    ymax: 759
+    ymin: 512
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+  - class_id: 11
+    xmax: 798
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 608
+  - class_id: 11
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/cup_purple_05_04_19_5_319.jpg
+  objects:
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/cup_pink_05_04_19_11_320.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 814
+    ymin: 512
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 2
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 448
+- image_name: validation_images/bowl_blue_05_04_19_6_321.jpg
+  objects:
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 807
+    ymin: 296
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/shampoo_05_04_19_13_322.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+  - class_id: 3
+    xmax: 687
+    xmin: 496
+    ymax: 766
+    ymin: 512
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+- image_name: validation_images/bowl_blue_05_04_19_3_323.jpg
+  objects:
+  - class_id: 9
+    xmax: 751
+    xmin: 416
+    ymax: 815
+    ymin: 584
+  - class_id: 9
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 584
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_12_324.jpg
+  objects:
+  - class_id: 8
+    xmax: 695
+    xmin: 472
+    ymax: 831
+    ymin: 584
+  - class_id: 5
+    xmax: 687
+    xmin: 440
+    ymax: 759
+    ymin: 472
+- image_name: validation_images/sponge_05_04_19_5_325.jpg
+  objects:
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+  - class_id: 10
+    xmax: 742
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 304
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+- image_name: validation_images/cookies_05_04_19_9_326.jpg
+  objects:
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 512
+  - class_id: 11
+    xmax: 798
+    xmin: 448
+    ymax: 807
+    ymin: 392
+- image_name: validation_images/cup_purple_05_04_19_8_327.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 10
+    xmax: 719
+    xmin: 432
+    ymax: 807
+    ymin: 600
+  - class_id: 3
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/cookies_05_04_19_5_328.jpg
+  objects:
+  - class_id: 2
+    xmax: 703
+    xmin: 472
+    ymax: 815
+    ymin: 448
+  - class_id: 10
+    xmax: 727
+    xmin: 456
+    ymax: 799
+    ymin: 608
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 10
+    xmax: 695
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 11
+    xmax: 743
+    xmin: 384
+    ymax: 815
+    ymin: 392
+- image_name: validation_images/mug_05_04_19_9_329.jpg
+  objects:
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 823
+    ymin: 400
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 5
+    xmax: 687
+    xmin: 400
+    ymax: 759
+    ymin: 472
+- image_name: validation_images/cookies_05_04_19_2_330.jpg
+  objects:
+  - class_id: 11
+    xmax: 799
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+  - class_id: 11
+    xmax: 751
+    xmin: 432
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/stapler_05_04_19_17_331.jpg
+  objects:
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 8
+    xmax: 719
+    xmin: 464
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/cup_pink_05_04_19_1_332.jpg
+  objects:
+  - class_id: 5
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 472
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/shampoo_05_04_19_14_333.jpg
+  objects:
+  - class_id: 8
+    xmax: 743
+    xmin: 424
+    ymax: 807
+    ymin: 576
+  - class_id: 10
+    xmax: 735
+    xmin: 472
+    ymax: 815
+    ymin: 608
+  - class_id: 10
+    xmax: 695
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 304
+- image_name: validation_images/e_stop_05_04_19_4_334.jpg
+  objects:
+  - class_id: 10
+    xmax: 727
+    xmin: 456
+    ymax: 799
+    ymin: 608
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 814
+    ymin: 512
+  - class_id: 4
+    xmax: 719
+    xmin: 440
+    ymax: 823
+    ymin: 608
+- image_name: validation_images/cookies_05_04_19_7_335.jpg
+  objects:
+  - class_id: 11
+    xmax: 783
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 1
+    xmax: 742
+    xmin: 432
+    ymax: 791
+    ymin: 584
+  - class_id: 11
+    xmax: 735
+    xmin: 424
+    ymax: 823
+    ymin: 384
+- image_name: validation_images/stapler_05_04_19_18_336.jpg
+  objects:
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+- image_name: validation_images/toy_05_04_19_17_337.jpg
+  objects:
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+- image_name: validation_images/bowl_blue_05_04_19_7_338.jpg
+  objects:
+  - class_id: 1
+    xmax: 743
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_1_339.jpg
+  objects:
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+- image_name: validation_images/bowl_blue_05_04_19_12_340.jpg
+  objects:
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 5
+    xmax: 695
+    xmin: 432
+    ymax: 759
+    ymin: 472
+  - class_id: 5
+    xmax: 783
+    xmin: 465
+    ymax: 815
+    ymin: 472
+  - class_id: 5
+    xmax: 783
+    xmin: 465
+    ymax: 815
+    ymin: 472
+  - class_id: 1
+    xmax: 735
+    xmin: 440
+    ymax: 807
+    ymin: 584
+- image_name: validation_images/bowl_blue_05_04_19_6_341.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 576
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/pringles_05_04_19_0_342.jpg
+  objects:
+  - class_id: 6
+    xmax: 700
+    xmin: 472
+    ymax: 815
+    ymin: 64
+  - class_id: 9
+    xmax: 751
+    xmin: 416
+    ymax: 815
+    ymin: 584
+  - class_id: 2
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 440
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+- image_name: validation_images/cup_purple_05_04_19_15_343.jpg
+  objects:
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 815
+    ymin: 72
+  - class_id: 9
+    xmax: 727
+    xmin: 416
+    ymax: 807
+    ymin: 584
+  - class_id: 5
+    xmax: 710
+    xmin: 472
+    ymax: 815
+    ymin: 472
+  - class_id: 6
+    xmax: 702
+    xmin: 480
+    ymax: 751
+    ymin: 64
+  - class_id: 3
+    xmax: 695
+    xmin: 472
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/pringles_05_04_19_3_344.jpg
+  objects:
+  - class_id: 11
+    xmax: 791
+    xmin: 440
+    ymax: 815
+    ymin: 400
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 10
+    xmax: 735
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 695
+    xmin: 480
+    ymax: 815
+    ymin: 72
+- image_name: validation_images/shampoo_05_04_19_7_345.jpg
+  objects:
+  - class_id: 7
+    xmax: 663
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 304
+  - class_id: 7
+    xmax: 663
+    xmin: 472
+    ymax: 799
+    ymin: 296
+- image_name: validation_images/e_stop_05_04_19_11_346.jpg
+  objects:
+  - class_id: 5
+    xmax: 783
+    xmin: 465
+    ymax: 815
+    ymin: 472
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 799
+    ymin: 512
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+- image_name: validation_images/e_stop_05_04_19_6_347.jpg
+  objects:
+  - class_id: 7
+    xmax: 695
+    xmin: 464
+    ymax: 799
+    ymin: 296
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 608
+- image_name: validation_images/stapler_05_04_19_8_348.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/sponge_05_04_19_8_349.jpg
+  objects:
+  - class_id: 6
+    xmax: 701
+    xmin: 472
+    ymax: 799
+    ymin: 72
+  - class_id: 1
+    xmax: 743
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 10
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+- image_name: validation_images/pringles_05_04_19_2_350.jpg
+  objects:
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/bowl_blue_05_04_19_14_351.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 442
+    ymax: 815
+    ymin: 600
+  - class_id: 11
+    xmax: 743
+    xmin: 384
+    ymax: 815
+    ymin: 392
+  - class_id: 9
+    xmax: 775
+    xmin: 416
+    ymax: 815
+    ymin: 592
+  - class_id: 4
+    xmax: 735
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/stapler_05_04_19_7_352.jpg
+  objects:
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 8
+    xmax: 742
+    xmin: 432
+    ymax: 807
+    ymin: 576
+- image_name: validation_images/mug_05_04_19_4_353.jpg
+  objects:
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 304
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 600
+  - class_id: 8
+    xmax: 742
+    xmin: 432
+    ymax: 807
+    ymin: 576
+  - class_id: 5
+    xmax: 791
+    xmin: 464
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/mug_05_04_19_2_354.jpg
+  objects:
+  - class_id: 8
+    xmax: 711
+    xmin: 456
+    ymax: 815
+    ymin: 560
+  - class_id: 5
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 472
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 512
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 5
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/stapler_05_04_19_12_355.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 568
+- image_name: validation_images/toy_05_04_19_7_356.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/pringles_05_04_19_4_357.jpg
+  objects:
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/cup_purple_05_04_19_14_358.jpg
+  objects:
+  - class_id: 5
+    xmax: 687
+    xmin: 440
+    ymax: 759
+    ymin: 472
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/mug_05_04_19_3_359.jpg
+  objects:
+  - class_id: 5
+    xmax: 711
+    xmin: 472
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/pringles_05_04_19_0_360.jpg
+  objects:
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 6
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 64
+  - class_id: 6
+    xmax: 695
+    xmin: 465
+    ymax: 815
+    ymin: 64
+- image_name: validation_images/e_stop_05_04_19_18_361.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 10
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 600
+  - class_id: 11
+    xmax: 719
+    xmin: 400
+    ymax: 847
+    ymin: 400
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/mug_05_04_19_15_362.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 5
+    xmax: 702
+    xmin: 384
+    ymax: 807
+    ymin: 472
+- image_name: validation_images/pringles_05_04_19_17_363.jpg
+  objects:
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/pringles_05_04_19_1_364.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+  - class_id: 4
+    xmax: 727
+    xmin: 440
+    ymax: 823
+    ymin: 600
+  - class_id: 8
+    xmax: 734
+    xmin: 512
+    ymax: 823
+    ymin: 584
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 815
+    ymin: 64
+- image_name: validation_images/mug_05_04_19_18_365.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 464
+    ymax: 799
+    ymin: 472
+  - class_id: 11
+    xmax: 767
+    xmin: 432
+    ymax: 815
+    ymin: 384
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 791
+    ymin: 448
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/e_stop_05_04_19_11_366.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+  - class_id: 11
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 384
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+- image_name: validation_images/shampoo_05_04_19_17_367.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 472
+    ymax: 815
+    ymin: 584
+  - class_id: 10
+    xmax: 695
+    xmin: 440
+    ymax: 815
+    ymin: 600
+  - class_id: 6
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 10
+    xmax: 727
+    xmin: 456
+    ymax: 799
+    ymin: 608
+  - class_id: 7
+    xmax: 663
+    xmin: 480
+    ymax: 807
+    ymin: 304
+- image_name: validation_images/sponge_05_04_19_4_368.jpg
+  objects:
+  - class_id: 2
+    xmax: 687
+    xmin: 472
+    ymax: 766
+    ymin: 448
+  - class_id: 4
+    xmax: 743
+    xmin: 432
+    ymax: 815
+    ymin: 601
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 608
+- image_name: validation_images/cup_purple_05_04_19_12_369.jpg
+  objects:
+  - class_id: 7
+    xmax: 663
+    xmin: 473
+    ymax: 815
+    ymin: 304
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 807
+    ymin: 392
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 805
+    ymin: 64
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 814
+    ymin: 512
+- image_name: validation_images/stapler_05_04_19_1_370.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 815
+    ymin: 440
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+- image_name: validation_images/toy_05_04_19_6_371.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 442
+    ymax: 815
+    ymin: 600
+  - class_id: 9
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/sponge_top_05_04_19_17_372.jpg
+  objects:
+  - class_id: 8
+    xmax: 719
+    xmin: 472
+    ymax: 823
+    ymin: 560
+  - class_id: 10
+    xmax: 727
+    xmin: 448
+    ymax: 807
+    ymin: 600
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 807
+    ymin: 600
+- image_name: validation_images/e_stop_05_04_19_16_373.jpg
+  objects:
+  - class_id: 9
+    xmax: 751
+    xmin: 416
+    ymax: 815
+    ymin: 584
+  - class_id: 2
+    xmax: 710
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 6
+    xmax: 711
+    xmin: 464
+    ymax: 805
+    ymin: 64
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+- image_name: validation_images/cookies_05_04_19_7_374.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 7
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 296
+  - class_id: 10
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 600
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 814
+    ymin: 512
+  - class_id: 11
+    xmax: 735
+    xmin: 424
+    ymax: 823
+    ymin: 384
+- image_name: validation_images/toy_05_04_19_12_375.jpg
+  objects:
+  - class_id: 1
+    xmax: 742
+    xmin: 440
+    ymax: 807
+    ymin: 584
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 4
+    xmax: 750
+    xmin: 432
+    ymax: 815
+    ymin: 608
+  - class_id: 11
+    xmax: 711
+    xmin: 448
+    ymax: 815
+    ymin: 384
+  - class_id: 9
+    xmax: 719
+    xmin: 448
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/bowl_blue_05_04_19_6_376.jpg
+  objects:
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/mug_05_04_19_18_377.jpg
+  objects:
+  - class_id: 5
+    xmax: 687
+    xmin: 400
+    ymax: 759
+    ymin: 472
+  - class_id: 9
+    xmax: 719
+    xmin: 448
+    ymax: 815
+    ymin: 576
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+- image_name: validation_images/bowl_blue_05_04_19_0_378.jpg
+  objects:
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 807
+    ymin: 608
+  - class_id: 10
+    xmax: 743
+    xmin: 456
+    ymax: 815
+    ymin: 600
+  - class_id: 1
+    xmax: 759
+    xmin: 440
+    ymax: 815
+    ymin: 584
+  - class_id: 1
+    xmax: 759
+    xmin: 448
+    ymax: 815
+    ymin: 584
+- image_name: validation_images/cookies_05_04_19_10_379.jpg
+  objects:
+  - class_id: 6
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 64
+  - class_id: 11
+    xmax: 703
+    xmin: 464
+    ymax: 815
+    ymin: 384
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 11
+    xmax: 711
+    xmin: 464
+    ymax: 847
+    ymin: 400
+- image_name: validation_images/cup_pink_05_04_19_3_380.jpg
+  objects:
+  - class_id: 7
+    xmax: 663
+    xmin: 472
+    ymax: 799
+    ymin: 296
+  - class_id: 11
+    xmax: 735
+    xmin: 384
+    ymax: 807
+    ymin: 384
+  - class_id: 9
+    xmax: 759
+    xmin: 416
+    ymax: 807
+    ymin: 584
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 448
+- image_name: validation_images/sponge_05_04_19_6_381.jpg
+  objects:
+  - class_id: 2
+    xmax: 700
+    xmin: 472
+    ymax: 807
+    ymin: 448
+  - class_id: 8
+    xmax: 735
+    xmin: 424
+    ymax: 815
+    ymin: 568
+  - class_id: 5
+    xmax: 695
+    xmin: 393
+    ymax: 759
+    ymin: 472
+  - class_id: 11
+    xmax: 743
+    xmin: 384
+    ymax: 815
+    ymin: 392
+  - class_id: 10
+    xmax: 735
+    xmin: 456
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/cup_purple_05_04_19_7_382.jpg
+  objects:
+  - class_id: 7
+    xmax: 671
+    xmin: 528
+    ymax: 735
+    ymin: 304
+  - class_id: 5
+    xmax: 711
+    xmin: 472
+    ymax: 823
+    ymin: 472
+  - class_id: 4
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 601
+  - class_id: 3
+    xmax: 687
+    xmin: 496
+    ymax: 766
+    ymin: 512
+- image_name: validation_images/cup_pink_05_04_19_8_383.jpg
+  objects:
+  - class_id: 4
+    xmax: 751
+    xmin: 432
+    ymax: 799
+    ymin: 608
+  - class_id: 6
+    xmax: 703
+    xmin: 480
+    ymax: 791
+    ymin: 64
+  - class_id: 1
+    xmax: 727
+    xmin: 432
+    ymax: 799
+    ymin: 584
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 304
+  - class_id: 2
+    xmax: 718
+    xmin: 464
+    ymax: 807
+    ymin: 440
+- image_name: validation_images/cookies_05_04_19_6_384.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 384
+    ymax: 807
+    ymin: 472
+  - class_id: 11
+    xmax: 791
+    xmin: 448
+    ymax: 807
+    ymin: 392
+- image_name: validation_images/e_stop_05_04_19_19_385.jpg
+  objects:
+  - class_id: 4
+    xmax: 719
+    xmin: 472
+    ymax: 815
+    ymin: 600
+- image_name: validation_images/cup_purple_05_04_19_19_386.jpg
+  objects:
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+  - class_id: 3
+    xmax: 687
+    xmin: 473
+    ymax: 759
+    ymin: 512
+- image_name: validation_images/cup_purple_05_04_19_6_387.jpg
+  objects:
+  - class_id: 5
+    xmax: 783
+    xmin: 464
+    ymax: 815
+    ymin: 472
+  - class_id: 9
+    xmax: 735
+    xmin: 432
+    ymax: 815
+    ymin: 584
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+- image_name: validation_images/stapler_05_04_19_3_388.jpg
+  objects:
+  - class_id: 3
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 8
+    xmax: 759
+    xmin: 424
+    ymax: 807
+    ymin: 568
+  - class_id: 3
+    xmax: 719
+    xmin: 464
+    ymax: 807
+    ymin: 512
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/pringles_05_04_19_12_389.jpg
+  objects:
+  - class_id: 6
+    xmax: 710
+    xmin: 465
+    ymax: 807
+    ymin: 64
+- image_name: validation_images/mug_05_04_19_11_390.jpg
+  objects:
+  - class_id: 10
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 608
+  - class_id: 11
+    xmax: 775
+    xmin: 464
+    ymax: 847
+    ymin: 400
+  - class_id: 5
+    xmax: 695
+    xmin: 432
+    ymax: 759
+    ymin: 472
+- image_name: validation_images/stapler_05_04_19_8_391.jpg
+  objects:
+  - class_id: 8
+    xmax: 759
+    xmin: 432
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/toy_05_04_19_16_392.jpg
+  objects:
+  - class_id: 9
+    xmax: 743
+    xmin: 464
+    ymax: 815
+    ymin: 576
+- image_name: validation_images/stapler_05_04_19_9_393.jpg
+  objects:
+  - class_id: 4
+    xmax: 750
+    xmin: 440
+    ymax: 807
+    ymin: 608
+  - class_id: 7
+    xmax: 663
+    xmin: 480
+    ymax: 807
+    ymin: 304
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+  - class_id: 9
+    xmax: 719
+    xmin: 424
+    ymax: 807
+    ymin: 584
+  - class_id: 8
+    xmax: 711
+    xmin: 456
+    ymax: 815
+    ymin: 560
+- image_name: validation_images/cookies_05_04_19_15_394.jpg
+  objects:
+  - class_id: 11
+    xmax: 727
+    xmin: 472
+    ymax: 815
+    ymin: 384
+- image_name: validation_images/cup_pink_05_04_19_18_395.jpg
+  objects:
+  - class_id: 2
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 448
+  - class_id: 8
+    xmax: 735
+    xmin: 464
+    ymax: 823
+    ymin: 560
+  - class_id: 9
+    xmax: 695
+    xmin: 472
+    ymax: 823
+    ymin: 576
+  - class_id: 2
+    xmax: 703
+    xmin: 464
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/bowl_blue_05_04_19_13_396.jpg
+  objects:
+  - class_id: 1
+    xmax: 742
+    xmin: 432
+    ymax: 791
+    ymin: 584
+- image_name: validation_images/cup_pink_05_04_19_1_397.jpg
+  objects:
+  - class_id: 4
+    xmax: 759
+    xmin: 448
+    ymax: 807
+    ymin: 608
+  - class_id: 7
+    xmax: 711
+    xmin: 465
+    ymax: 815
+    ymin: 304
+  - class_id: 2
+    xmax: 711
+    xmin: 464
+    ymax: 807
+    ymin: 448
+- image_name: validation_images/cup_purple_05_04_19_11_398.jpg
+  objects:
+  - class_id: 5
+    xmax: 702
+    xmin: 384
+    ymax: 807
+    ymin: 472
+  - class_id: 3
+    xmax: 703
+    xmin: 464
+    ymax: 799
+    ymin: 512
+- image_name: validation_images/e_stop_05_04_19_13_399.jpg
+  objects:
+  - class_id: 9
+    xmax: 735
+    xmin: 464
+    ymax: 815
+    ymin: 576
+  - class_id: 10
+    xmax: 719
+    xmin: 465
+    ymax: 815
+    ymin: 600
+  - class_id: 4
+    xmax: 695
+    xmin: 472
+    ymax: 815
+    ymin: 600

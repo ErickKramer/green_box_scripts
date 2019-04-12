@@ -47,7 +47,7 @@ FLAGS = flags.FLAGS
 
 def create_tf_record_from_yaml(annotations_file, image_dir, classes_filename, output_path, num_shards):
 
-    writer = tf.python_io.TFRecordWriter(FLAGS.output_path)
+    writer = tf.python_io.TFRecordWriter(output_path)
 
     # Load annotations file
     with open(annotations_file, 'r') as annotations_f:
@@ -60,11 +60,14 @@ def create_tf_record_from_yaml(annotations_file, image_dir, classes_filename, ou
     print('Number of classes ', len(classes_dict))
     print('Number of annotations ', len(annotations))
 
-    for example in annotations:
+    for idx, example in enumerate(annotations):
+
+        print('Generating tf example for image {} of {} images'.format(idx+1, len(annotations)))
+
         filename = example['image_name']
         file_path = os.path.join(image_dir,filename)
 
-        img = cv2.read_image(file_path)
+        img = cv2.imread(file_path)
         height = img.shape[0]
         width = img.shape[1]
 
@@ -88,7 +91,7 @@ def create_tf_record_from_yaml(annotations_file, image_dir, classes_filename, ou
         for object_ in objects:
             class_id = object_['class_id']
             classes.append(class_id)
-            classes_text.append(classes_dict[class_id])
+            classes_text.append(classes_dict[class_id].encode('utf8'))
             xmins.append(object_['xmin']/width)
             xmins.append(object_['xmax']/width)
             ymins.append(object_['ymin']/height)
@@ -97,10 +100,10 @@ def create_tf_record_from_yaml(annotations_file, image_dir, classes_filename, ou
         tf_example = tf.train.Example(features=tf.train.Features(feature={
             'image/height': dataset_util.int64_feature(height),
             'image/width': dataset_util.int64_feature(width),
-            'image/filename': dataset_util.bytes_feature(filename),
-            'image/source_id': dataset_util.bytes_feature(filename),
+            'image/filename': dataset_util.bytes_feature(filename.encode('utf8')),
+            'image/source_id': dataset_util.bytes_feature(filename.encode('utf8')),
             'image/encoded': dataset_util.bytes_feature(encoded_image_data),
-            'image/format': dataset_util.bytes_feature(image_format),
+            'image/format': dataset_util.bytes_feature(image_format.encode('utf8')),
             'image/object/bbox/xmin': dataset_util.float_list_feature(xmins),
             'image/object/bbox/xmax': dataset_util.float_list_feature(xmaxs),
             'image/object/bbox/ymin': dataset_util.float_list_feature(ymins),
@@ -134,12 +137,12 @@ def main(_):
         train_output_path,
         num_shards=1)
 
-    # create_tf_record_from_csv(
-    #     FLAGS.val_annotations_file,
-    #     FLAGS.val_image_dir,
-    #     val_output_path,
-    #     FLAGS.include_masks,
-    #     num_shards=1)
+    create_tf_record_from_yaml(
+        FLAGS.val_annotations_file,
+        FLAGS.val_image_dir,
+        FLAGS.classes_filename,
+        val_output_path,
+        num_shards=1)
 
 
 if __name__ == '__main__':

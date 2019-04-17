@@ -199,10 +199,10 @@ def augment_data(img_dir_name: str,
 
                 id = classes_to_id[object_class]
                 augmented_object = {'class_id': id,
-                                    'xmin': int(bb.min_coords.x),
-                                    'xmax': int(bb.max_coords.x),
-                                    'ymin': int(bb.min_coords.y),
-                                    'ymax': int(bb.max_coords.y)}
+                                    'xmin': int(transformed_bb.min_coords.x),
+                                    'xmax': int(transformed_bb.max_coords.x),
+                                    'ymin': int(transformed_bb.min_coords.y),
+                                    'ymax': int(transformed_bb.max_coords.y)}
 
                 augmented_objects.append(augmented_object)
 

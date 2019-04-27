@@ -4,6 +4,7 @@ import os
 import subprocess
 import time
 import signal
+import cv2
 
 def max_number_of_images_saved(dir_name, number_of_images):
     '''
@@ -23,25 +24,29 @@ def max_number_of_images_saved(dir_name, number_of_images):
     img_counter = 0
     for f in files:
         if '.jpg' in f.lower():
-            img_counter += 1
-    if img_counter == number_of_images:
-        return True
+            try:
+                _ = cv2.imread(f)
+                img_counter += 1
+            except:
+                os.remove(f)
+        if img_counter == number_of_images:
+            return True
     return False
 
-def rename_img_files(dir_name):
+def rename_img_files(obj_name):
     '''
     Method to rename the images inside a directory
 
     Input:
-        * dir_name
+        * obj_name
             -> String
-            -> Name of the directory where the images are stored
+            -> Name of the object
     '''
     files = os.listdir('.')
     img_counter = 0
 
     for f in files:
-        new_file_name = '{0}_{1}.jpg'.format(dir_name, img_counter)
+        new_file_name = '{0}_{1}.jpg'.format(obj_name, img_counter)
         os.rename(f, new_file_name)
         img_counter += 1
 
@@ -54,12 +59,14 @@ if __name__ == '__main__':
     '''
     image_topic_name = sys.argv[1]
     image_dir_name = sys.argv[2]
-    number_of_images = int(sys.argv[3])
+    obj_name = sys.argv[3]
+    number_of_images = int(sys.argv[4])
 
     if not os.path.isdir(image_dir_name):
         os.mkdir(image_dir_name)
+        # os.makedirs(image_dir_name, exist_ok=True)
     os.chdir(image_dir_name)
-    
+
     # Execute image_view ros node
     process = subprocess.Popen(['rosrun', 'image_view', 'image_saver', 'image:=' + image_topic_name])
 
@@ -77,4 +84,4 @@ if __name__ == '__main__':
     process.kill()
     subprocess.call(['pkill', 'image_saver'])
 
-    rename_img_files(image_dir_name)
+    rename_img_files(obj_name)

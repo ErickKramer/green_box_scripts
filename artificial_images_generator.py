@@ -6,6 +6,8 @@ import matplotlib.pyplot as plt
 from imageio import imread, imwrite
 import pandas as pd
 import yaml
+import cv2
+import glob
 
 class Vec2D(object):
     def __init__(self, x=None, y=None):
@@ -129,10 +131,21 @@ def augment_data(img_dir_name: str,
 
     backgrounds = os.listdir(background_img_dir)
     print('Number of backgrounds images ', len(backgrounds))
-    objects = os.listdir(img_dir_name)
-    print('Number of Objects ', len(objects))
 
-    images = os.listdir(os.path.join(img_dir_name,objects[0]))
+    perspectives = None
+
+    if 'perspectives' in img_dir_name:
+        perspectives = os.listdir(img_dir_name)
+        print('Number of perspectives ', len(perspectives))
+
+        objects = os.listdir(os.path.join(img_dir_name,perspectives[0]))
+        print('Number of classes ', len(objects))
+
+    else:
+        objects = os.listdir(img_dir_name)
+        print('Number of classes ', len(objects))
+
+    # images = os.listdir(os.path.join(img_dir_name,objects[0]))
 
     # Generating images paths
     background_paths = []
@@ -141,9 +154,15 @@ def augment_data(img_dir_name: str,
         background_paths.append(background_path)
 
     objects_paths = []
-    for object in objects:
-        object_path = os.path.join(img_dir_name, object)
-        objects_paths.append(object_path)
+    if perspectives != None:
+        for perspective in perspectives:
+            for object in objects:
+                object_path = os.path.join(img_dir_name,perspective,object)
+                objects_paths.append(object_path)
+    else:
+        for object in objects:
+            object_path = os.path.join(img_dir_name,perspective,object)
+            objects_paths.append(object_path)
 
     augmented_img_counter = 0
 
@@ -157,24 +176,40 @@ def augment_data(img_dir_name: str,
             background_img = np.array(background_img_original, dtype=np.uint8)
             augmented_objects = []
             for _ in range(np.random.randint(1,max_objects_per_image)): # Number of objects in the image
-                object_path = objects_paths[np.random.randint(len(objects))]
-                # print(object_path)
-                object_class = object_path.replace(img_dir_name+'/','')
-                # print(object_class)
-                images = os.listdir(object_path)
-                # print(images)
+                object_path = objects_paths[np.random.randint(len(objects_paths))]
+
+                # Collect object class
+                if perspectives != None:
+                    object_class = object_path.split('/')[2]
+                else:
+                    object_class = object_path.split('/')[1]
+
+                # List of images in the directory
+                images = glob.glob(object_path+'/*.jpg')
+
+                if len(images) == 0:
+                    # print('Inspecting subdirectories...')
+                    images = glob.glob(object_path+'/**/*.jpg')
+
                 image_full_name = images[np.random.randint(len(images))]
-                # print('Number of images ', len(images))
-                while not '.jpg' in image_full_name:
-                    image_full_name = images[np.random.randint(len(images))]
 
-                image_name, img_extension = image_full_name.split('.')
-                image_path = os.path.join(object_path,image_full_name)
+                # Load image
+                img = np.array(imread(image_full_name), dtype=np.uint8)
 
-                img = np.array(imread(image_path), dtype=np.uint8)
-                segmentation_mask_path = os.path.join(object_path, 'object_masks',
-                                                      image_name + '_mask.'+'jpg')
+                # Obtain image name to find the mask
+                image_name = os.path.basename(image_full_name).split('.')[0]
+
+                # Obtain the path to the mask required
+                segmentation_dir = os.path.dirname(image_full_name)
+                segmentation_mask_path = os.path.join(segmentation_dir, 'object_masks',
+                                                      image_name + '_mask'+'.jpg')
+
+                # Load the segmentation mask
                 segmentation_mask = np.array(imread(segmentation_mask_path), dtype=np.uint8)
+                print(segmentation_mask_path)
+                # Remove noise im the image mask
+                kernel = np.ones((3,3),np.uint8)
+                segmentation_mask = cv2.morphologyEx(segmentation_mask,cv2.MORPH_OPEN,kernel, iterations = 10)
 
                 # we get the bounding box of the object and generate a transformation matrix
                 bb = get_bb_from_mask(segmentation_mask)
@@ -207,11 +242,11 @@ def augment_data(img_dir_name: str,
                 augmented_objects.append(augmented_object)
 
             if 'train' in annotations_file:
-                output_path = os.path.join('training_images',image_name + '_' + str(augmented_img_counter) \
-                 + '.' + img_extension)
+                output_path = os.path.join('training_images',str(augmented_img_counter) \
+                 + '.jpg')
             elif 'val' in annotations_file:
-                output_path = os.path.join('validation_images',image_name + '_' + str(augmented_img_counter) \
-                 + '.' + img_extension)
+                output_path = os.path.join('validation_images',str(augmented_img_counter) \
+                 + '.jpg')
 
             # print(output_path)
             imwrite(output_path, background_img)

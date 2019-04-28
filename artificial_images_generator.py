@@ -205,15 +205,19 @@ def augment_data(img_dir_name: str,
                                                       image_name + '_mask'+'.jpg')
 
                 # Load the segmentation mask
-                segmentation_mask = np.array(imread(segmentation_mask_path), dtype=np.uint8)
-                print(segmentation_mask_path)
+                segmentation_mask = cv2.imread(segmentation_mask_path, 0)
+                # print(segmentation_mask_path)
                 # Remove noise im the image mask
                 kernel = np.ones((3,3),np.uint8)
-                segmentation_mask = cv2.morphologyEx(segmentation_mask,cv2.MORPH_OPEN,kernel, iterations = 10)
+                smoothed = cv2.GaussianBlur(segmentation_mask, (7,7),0)
+                segmentation_mask = cv2.morphologyEx(smoothed,cv2.MORPH_OPEN,kernel, iterations = 10)
 
                 # we get the bounding box of the object and generate a transformation matrix
-                bb = get_bb_from_mask(segmentation_mask)
-
+                try:
+                    bb = get_bb_from_mask(segmentation_mask)
+                except:
+                    print("\033[1;31mInvalid mask  \n {} \n {}\033[0;37m".format(image_full_name, segmentation_mask_path))
+                    continue
 
                 t = generate_transformation(bb, background_img.shape)
 

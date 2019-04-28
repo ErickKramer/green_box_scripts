@@ -71,6 +71,17 @@ This **SOMETHING** contains a set of scripts used to collect images, generate ma
 `./data_augmenter.py [img_dir] [background_img_dir] [number_of_images_per_background]`
 
 
+## Training process
+**Inside models/research**
+**It is required to execute `export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim`**
+python3 object_detection/model_main.py \
+    --pipeline_config_path=${PIPELINE_CONFIG_PATH} \
+    --model_dir=${MODEL_DIR} \
+    --num_train_steps=${NUM_TRAIN_STEPS} \
+    --sample_1_of_n_eval_examples=$SAMPLE_1_OF_N_EVAL_EXAMPLES \
+    --alsologtostderr
+
+
 ## Structure
 
 ## TODOS:

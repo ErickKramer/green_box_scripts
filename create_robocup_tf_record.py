@@ -156,14 +156,14 @@ def main(_):
         FLAGS.train_image_dir,
         FLAGS.classes_filename,
         train_output_path,
-        num_shards=1)
+        num_shards=10)
 
     create_tf_record_from_yaml(
         FLAGS.val_annotations_file,
         FLAGS.val_image_dir,
         FLAGS.classes_filename,
         val_output_path,
-        num_shards=1)
+        num_shards=10)
 
 
 if __name__ == '__main__':

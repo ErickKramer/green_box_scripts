@@ -29,7 +29,7 @@ def max_number_of_images_saved(dir_name, number_of_images):
                 img_counter += 1
             except:
                 os.remove(f)
-        if img_counter == number_of_images:
+        if img_counter >= number_of_images:
             return True
     return False
 
@@ -46,10 +46,12 @@ def rename_img_files(obj_name):
     img_counter = 0
 
     for f in files:
-        new_file_name = '{0}_{1}.jpg'.format(obj_name, img_counter)
-        os.rename(f, new_file_name)
-        img_counter += 1
-
+        if '.jpg' in f.lower():
+            new_file_name = '{0}_{1}.jpg'.format(obj_name, img_counter)
+            os.rename(f, new_file_name)
+            img_counter += 1
+        else if '.ini' in f.lower():
+            os.remove(f)
 if __name__ == '__main__':
     '''
     Arguments:

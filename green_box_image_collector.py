@@ -50,7 +50,7 @@ def rename_img_files(obj_name):
             new_file_name = '{0}_{1}.jpg'.format(obj_name, img_counter)
             os.rename(f, new_file_name)
             img_counter += 1
-        else if '.ini' in f.lower():
+        elif '.ini' in f.lower():
             os.remove(f)
 if __name__ == '__main__':
     '''

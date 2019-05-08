@@ -29,7 +29,7 @@ def max_number_of_images_saved(dir_name, number_of_images):
                 img_counter += 1
             except:
                 os.remove(f)
-        if img_counter >= number_of_images:
+        if img_counter == number_of_images:
             return True
     return False
 

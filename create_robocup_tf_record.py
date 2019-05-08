@@ -73,9 +73,13 @@ def create_tf_record_from_yaml(annotations_file, image_dir, classes_filename, ou
             filename = example['image_name']
             file_path = os.path.join(image_dir,filename)
 
-            img = cv2.imread(file_path)
-            height = img.shape[0]
-            width = img.shape[1]
+            try:
+                img = cv2.imread(file_path)
+                height = img.shape[0]
+                width = img.shape[1]
+            except:
+                print('Failed with image ', file_path)
+                continue
 
             with tf.gfile.GFile(file_path, 'rb') as fid:
                 encoded_image_data = fid.read()
@@ -151,12 +155,7 @@ def main(_):
     train_output_path = os.path.join(FLAGS.output_dir, 'robocup_train.record')
     val_output_path = os.path.join(FLAGS.output_dir, 'robocup_val.record')
 
-    create_tf_record_from_yaml(
-        FLAGS.train_annotations_file,
-        FLAGS.train_image_dir,
-        FLAGS.classes_filename,
-        train_output_path,
-        num_shards=10)
+    print('Generating validation shards ... ')
 
     create_tf_record_from_yaml(
         FLAGS.val_annotations_file,
@@ -164,6 +163,17 @@ def main(_):
         FLAGS.classes_filename,
         val_output_path,
         num_shards=10)
+
+    print('Generating training shards ... ')
+
+    create_tf_record_from_yaml(
+        FLAGS.train_annotations_file,
+        FLAGS.train_image_dir,
+        FLAGS.classes_filename,
+        train_output_path,
+        num_shards=20)
+
+
 
 
 if __name__ == '__main__':

@@ -74,7 +74,8 @@ def generate_transformation(bb: BoundingBox, boundaries: tuple) -> np.array:
 
         # we generate a random scaling factor between 0.5 and 1.5
         # of the original object size
-        random_scaling_factor = np.random.uniform(0.5, 1.0)
+        # random_scaling_factor = np.random.uniform(1, 1.5)
+        random_scaling_factor = 1
         s = np.array([[random_scaling_factor, 0., 0.],
                       [0., random_scaling_factor, 0.],
                       [0., 0., 1.]])
@@ -88,6 +89,7 @@ def generate_transformation(bb: BoundingBox, boundaries: tuple) -> np.array:
         for point in transformed_bb.T:
             if point[0] < 0 or point[0] >= boundaries[1] or \
                point[1] < 0 or point[1] >= boundaries[0]:
+                # print('Invalid transformation')
                 use_transformation = False
                 break
     return t
@@ -138,13 +140,6 @@ def augment_data(img_dir_name: str,
         perspectives = os.listdir(img_dir_name)
         print('Number of perspectives ', len(perspectives))
 
-        objects = os.listdir(os.path.join(img_dir_name,perspectives[0]))
-        print('Number of classes ', len(objects))
-
-    else:
-        objects = os.listdir(img_dir_name)
-        print('Number of classes ', len(objects))
-
     # images = os.listdir(os.path.join(img_dir_name,objects[0]))
 
     # Generating images paths
@@ -156,10 +151,12 @@ def augment_data(img_dir_name: str,
     objects_paths = []
     if perspectives != None:
         for perspective in perspectives:
+            objects = os.listdir(os.path.join(img_dir_name,perspective))
             for object in objects:
                 object_path = os.path.join(img_dir_name,perspective,object)
                 objects_paths.append(object_path)
     else:
+        objects = os.listdir(img_dir_name)
         for object in objects:
             object_path = os.path.join(img_dir_name,perspective,object)
             objects_paths.append(object_path)
@@ -189,10 +186,19 @@ def augment_data(img_dir_name: str,
 
                 if len(images) == 0:
                     # print('Inspecting subdirectories...')
+                    # print(object_path)
                     images = glob.glob(object_path+'/**/*.jpg')
 
-                image_full_name = images[np.random.randint(len(images))]
+                if len(images) == 0:
+                    print('Images not found')
+                    continue
 
+                # print('Len of images ', len(images))
+                image_full_name = images[np.random.randint(0,len(images))]
+                # print(image_full_name)
+                while 'background' in image_full_name: # Verify that we do not obtain a background image ={_}
+                    image_full_name = images[np.random.randint(0,len(images))]
+                    # print(image_full_name)
                 # Load image
                 img = np.array(imread(image_full_name), dtype=np.uint8)
 
@@ -260,13 +266,22 @@ def augment_data(img_dir_name: str,
             augmented_img_counter += 1
             print('Augmented {} out of {} images '.format(augmented_img_counter, images_per_background * len(backgrounds)))
 
+            if not augmented_img_counter%1000:
+                generate_annotation_file(annotations_file, training_images)
+
     generate_annotation_file(annotations_file, training_images)
     # print(training_images)
 
 def generate_annotation_file(annotations_file, training_images):
-    # print(training_images)
+
+    # with open(annotations_file, 'r') as annotation_file:
+    #     annotations = yaml.safe_load(annotation_file)
+    #
+    # # print(training_images)
+    # # the image_names cannot be repeated!!
+    print('--- Annotations checkpoint --- ')
     with open(annotations_file, 'w') as annotation_file:
-        yaml.dump(training_images, annotation_file,default_flow_style=False,
+        yaml.safe_dump(training_images, annotation_file,default_flow_style=False,
                       encoding='utf-8')
 
 if __name__ == '__main__':
@@ -275,8 +290,9 @@ if __name__ == '__main__':
     images_per_background = int(sys.argv[3])
     annotations_file = sys.argv[4]
     output_dir = sys.argv[5]
+    class_file_ = sys.argv[6]
 
-    with open('classes.yml', 'r') as class_file:
+    with open(class_file_, 'r') as class_file:
         id_to_classes = yaml.load(class_file, Loader=yaml.FullLoader)
 
     classes_to_id = dict()
